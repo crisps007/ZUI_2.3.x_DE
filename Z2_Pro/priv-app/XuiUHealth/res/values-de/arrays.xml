@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="datePickerXWeek">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="exercise_array">
+        <item>Gehen</item>
+        <item>Laufen</item>
+        <item>Fahrrad fahren</item>
+        <item>Treppen steigen</item>
+        <item>Indoor laufen</item>
+        <item>Spinning</item>
+        <item>Seilspringen</item>
+        <item>Plank</item>
+        <item>Yoga</item>
+        <item>Tanzen</item>
+        <item>Aerobik</item>
+        <item>Schwimmen</item>
+        <item>Tischtennis</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Fußball</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+        <item>Schlittschulaufen</item>
+        <item>Ski fahren</item>
+    </string-array>
+    <string-array name="exercise_array_healthy_list">
+        <item>Gehen</item>
+        <item>Laufen</item>
+        <item>Fahrrad fahren</item>
+        <item>Treppen steigen</item>
+        <item>Indoor laufen</item>
+        <item>Spinning</item>
+        <item>Seilspringen</item>
+        <item>Plank</item>
+        <item>Yoga</item>
+        <item>Tanzen</item>
+        <item>Aerobik</item>
+        <item>Schwimmen</item>
+        <item>Tischtennis</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Fußball</item>
+        <item>Tennis</item>
+        <item>Volleyball</item>
+        <item>Schlittschulaufen</item>
+        <item>Ski fahren</item>
+        <item>Auto fahren</item>
+    </string-array>
+    <string-array name="gender_lables">
+        <item>weiblich</item>
+        <item>männlich</item>
+    </string-array>
+    <string-array name="guest_info_more_array">
+        <item>Besucherdaten ändern</item>
+        <item>Besucher löschen</item>
+    </string-array>
+    <string-array name="guest_portrait_dialog">
+        <item>Foto aufnehmen</item>
+        <item>Fotos</item>
+    </string-array>
+    <string-array name="health_array">
+        <item>Puls</item>
+        <item>SpO2</item>
+        <item>Gewicht</item>
+        <item>Blutdruck</item>
+    </string-array>
+    <string-array name="health_array_other">
+        <item>Puls</item>
+        <item>Sauerstoffsättigung</item>
+        <item>Gewicht</item>
+        <item>Blutdruck</item>
+        <item>Blutdruck und Sauerstoffsättigun</item>
+    </string-array>
+    <string-array name="heart_rate_type">
+        <item>ruhend</item>
+        <item>aktiv</item>
+    </string-array>
+    <string-array name="pace_speed_5">
+        <item>langsam</item>
+        <item>gemütlich</item>
+        <item>spazieren</item>
+    </string-array>
+    <string-array name="pace_speed_6">
+        <item>langsam</item>
+        <item>gemütlich</item>
+        <item>spazieren</item>
+    </string-array>
+    <string-array name="products">
+        <item>ZUK</item>
+        <item>Jabra PULSE</item>
+    </string-array>
+    <string-array name="skin_lables">
+        <item>asiatisch</item>
+        <item>weiss</item>
+        <item>andere</item>
+    </string-array>
+    <string-array name="step_count_to_food">
+        <item>≈Ein Ei</item>
+        <item>≈5 Süssigkeiten</item>
+        <item>≈Eine Packung Milch</item>
+        <item>≈Eine Dose Cola</item>
+        <item>≈Eine Schale Reis</item>
+        <item>≈Eine halbe Sahnetorte</item>
+        <item>≈Ein Eis</item>
+        <item>≈Einen halben Hamburger</item>
+        <item>≈Eine halbe Tüte Chips</item>
+        <item>≈2 Dosen Cola</item>
+        <item>≈2 Brotscheiben</item>
+        <item>≈2 Schalen Reis</item>
+        <item>≈Ein Teller Nudeln</item>
+        <item>≈Ein Stück Sahnetorte</item>
+        <item>≈3 Chicken Wings</item>
+        <item>≈2 Eis</item>
+        <item>≈Ein Stück Pizza</item>
+        <item>≈Einen Hamburger</item>
+    </string-array>
+    <string-array name="trend_day_by_hour">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+</resources>

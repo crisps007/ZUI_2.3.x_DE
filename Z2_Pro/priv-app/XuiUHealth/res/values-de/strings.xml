@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">通过%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s需要使用一或多项 Google Play 服务，但这些服务目前不可用。请与开发者联系以寻求帮助。</string>
+    <string name="common_google_play_services_enable_button">启用 Google Play 服务</string>
+    <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string name="common_google_play_services_install_button">获取 Google Play 服务</string>
+    <string name="common_google_play_services_install_text_phone">您的手机没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板电脑没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_invalid_account_text">此设备上不存在指定的帐号。请选择其他帐号。</string>
+    <string name="common_google_play_services_invalid_account_title">帐号无效</string>
+    <string name="common_google_play_services_network_error_text">您必须有数据网络连接才能接入 Google Play 服务。</string>
+    <string name="common_google_play_services_network_error_title">网络错误</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服务出错</string>
+    <string name="common_google_play_services_restricted_profile_text">系统不支持通过受限个人资料访问帐号。</string>
+    <string name="common_google_play_services_restricted_profile_title">受限个人资料</string>
+    <string name="common_google_play_services_sign_in_failed_text">登录指定帐号时出错。请选择其他帐号。</string>
+    <string name="common_google_play_services_sign_in_failed_title">登录失败</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务。如果问题一直存在，请与开发者联系以寻求帮助。</string>
+    <string name="common_google_play_services_unsupported_text">%1$s必须搭配使用 Google Play 服务才能运行，但您的设备不支持该服务。请与设备制造商联系以寻求帮助。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服务</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必须先更新 Google Play 服务，然后才能运行%1$s。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_updating_text">Google Play 服务当前正在更新，因此您无法运行%1$s。</string>
+    <string name="common_google_play_services_updating_title">Google Play 服务正在更新</string>
+    <string name="common_google_play_services_wear_update_text">必须使用新版 Google Play 服务。该服务很快就会自行更新。</string>
+    <string name="common_open_on_phone">在手机上打开</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="Grave_hypertension_explain">您的血压数据严重超出正常值，请立即到正规医疗机构就诊，并尽快控制血压。</string>
+    <string name="Ideal_blood_pressure_explain">您的血压数据在非常理想的范围，继续保持现有的生活方式，保持健康哦。</string>
     <string name="Kcal_target_explain">Tägliche Aktivitäten, um das Ziel zu erreichen.</string>
+    <string name="Mild_hypertension_explain">您的血压数据略高于正常值，建议您定期检测血压，并尽早咨询医生。</string>
+    <string name="Moderate_hypertension_explain">您的血压数据已超出正常值，请立即咨询医生，并尽快控制血压。</string>
+    <string name="Normal_blood_pressure_explain">您的血压数据在正常范围内，继续保持现在的生活方式，定期检测血压。</string>
+    <string name="Pre_high_blood_pressure_explain">您的血压数据在正常范围内偏高，建议您远离不良生活习惯，多锻炼身体，定期检测血压。</string>
     <string name="Stride_explain">Wenn Sie einen Schritt nach vorne, zurück oder zur Seite machen, zählt das als Schritt. Gemessen wird in Zentimetern. Unter Umständen können die Abstände steigen, je schneller Sie laufen.</string>
-    <string name="Tweet">Twittern</string>
+    <string name="Tweet">Weibo</string>
     <string name="U_Health_terms_of_service">U-Health Nutzungsbedingungen</string>
     <string name="U_agreement">U-Health Einverständnis</string>
     <string name="WeChat">WeChat</string>
@@ -13,9 +68,11 @@
     <string name="act_trend">Aktivitätsdauer</string>
     <string name="active_burn">Active Verbrennung</string>
     <string name="active_time">Active Zeit</string>	
-    <string name="add_action">Füge Aktivität hinzu</string>
-    <string name="add_healthy_action">Füge Aktivität hinzu</string>
+    <string name="add_action">Aktivität hinzufügen</string>
+    <string name="add_healthy_action">Aktivität hinzufügen</string>
     <string name="app_name">U-Health</string>
+    <string name="auto_pause">运动自动暂停</string>
+    <string name="auto_pause_desc">开始运动后，手机静止超过5s，将自动暂停运动；手机再次开始活动，将自动继续运动。</string>
     <string name="auto_synk_data">Automatisch syncronisieren</string>	
     <string name="automatic_recording">Automatische Aufzeichnung</string>
     <string name="average">Durchschnitt</string>
@@ -63,9 +120,14 @@
     <string name="cumulative_distance">Gesamte Distanz</string>
     <string name="cumulative_number">Gesamte Schritte</string>
     <string name="cycling">Fahrradfahren</string>
+    <string name="cycling_distance">骑行距离</string>
+    <string name="cycling_distance_trend">骑行距离趋势</string>
+    <string name="cycling_string">骑行</string>
+    <string name="cycling_time">骑行时长</string>
     <string name="cycling_tv_pace_unit">Geschwindigkeit (km/h)</string>
     <string name="daily_mean">Täglicher Durschschnitt</string>
     <string name="daily_mean_mounth">Monatlicher Durchschnitt</string>
+    <string name="data_origin_title">ZUK运动，就要痛快</string>
     <string name="date_of_birth">Geburtsdatum</string>
     <string name="day">Tag</string>
     <string name="day_afternoon">Nachmittag</string>
@@ -73,6 +135,7 @@
     <string name="day_evening">Nacht</string>
     <string name="day_midnoon">Mittag</string>
     <string name="day_morning">Morgen</string>
+    <string name="del_the_data">删除本次数据</string>
     <string name="details">Details</string>
     <string name="device_bind_list_current_heart_rate">Gemessener Puls: %1$s BPM</string>
     <string name="device_bind_list_getting_heart_rate">Puls wird gemessen...</string>
@@ -98,8 +161,12 @@ Lassen Sie dann los."</string>
     <string name="device_bond_success">Kopplung erfolgreich</string>
     <string name="device_bond_unbind_failed_dialog_cancel">Abbruch</string>	
     <string name="device_bond_unbind_failed_dialog_force">Erzwinge Entkopplung</string>
+    <string name="device_bond_unbind_failed_dialog_msg">搜索不到您的设备,请确保设备有电并在附近</string>
     <string name="device_bond_unbind_failed_dialog_retry">Wiederholen</string>
     <string name="device_bond_unbind_failed_dialog_title">Entkopplung fehlgeschlagen</string>
+    <string name="device_bond_unbind_force_confirm_ok">仍然强制解绑</string>
+    <string name="device_bond_unbind_force_msg">强制解绑可能造成设备无法被绑定。除非设备损坏或丢失，不建议强制解绑。</string>
+    <string name="device_bond_unbind_force_title">风险提醒</string>
     <string name="device_connecting_device">Gerät wird gekoppelt</string>
     <string name="device_display_name_ryfit_scale">ZUK Physical Analyzer</string>
     <string name="device_error_full_user_msg">Die maximale Anzahl an Kopplungen ist erreicht(8), bitte lösen Sie zuerst eine Kopplung, um eine neue Kopplung vorzunehmen.</string>
@@ -138,7 +205,7 @@ Lassen Sie dann los."</string>
     <string name="dialog_hr_sporets_per_90_100_title" formatted="false">90%－100% des höchsten Pulses：</string>
     <string name="dialog_hr_sports_per_50_60_details">Anfängliche aerobe Übungen; können beim Abbau von Körperstress helfen.</string>
     <string name="dialog_hr_sports_per_50_60_title" formatted="false">50%－60% vom maximalen Pulsschlages：</string>
-    <string name="dialog_hr_sports_second_title">The maximum exercise heart rate refers to the highest level of heart rate under the maximum intensity of exercise load, when oxygen consumption and heart rate can not continue to increase, maximum heart rate = 220 - actual age.</string>
+    <string name="dialog_hr_sports_second_title">最大运动心率指在最大运动负荷强度时,耗氧量和心率不能继续增加时心率达到的最高水平，最大心率=220-实际年龄。</string>
     <string name="dialog_hr_sports_title">Trainigs-Puls</string>
     <string name="dialog_hr_tv_second_title">Bezieht sich auf die Anzahl der Herzschläge im gelassenen, inaktiven und ruhigen Zustand.</string>
     <string name="dialog_spo2_less_per_90_details">Weist auf ein geringes Maß an Blutsauerstoff in einem hypoxischen Zustand hin. Sollte dies über einen längeren Zeitraum andauern, suchen Sie so schnell wie möglich einen Arzt auf.</string>
@@ -154,8 +221,10 @@ Lassen Sie dann los."</string>
     <string name="distance">Distanz</string>
     <string name="distance_is_short_btn_stop">Beendet</string>
     <string name="distance_is_short_msg">Die sprtliche Distanz ist zu gering, die Aufzeichung kann nicht gespeichert werden; möchten Sie die Sitzung beenden?</string>
+    <string name="dragon_calorie">个马卡龙的热量</string>
     <string name="duration">Dauer</string>
     <string name="edit_step_three">Persönliche Inforationen bearbeiten</string>
+    <string name="elevation_change">海拔变化(米)</string>
     <string name="elevation_down">Gesamte Verringerung der Höhe</string>
     <string name="elevation_up">Gesamte Steigerung der Höhe</string>
     <string name="exercise">Aktivität</string>
@@ -182,15 +251,17 @@ Lassen Sie dann los."</string>
     <string name="gps_signal_bad_description">Örtlicher Verlauf und Distanz können möglicherweise nicht aufgezeichnet werden, suchen Sie bitte eine freien Außenbereich auf.</string>
     <string name="gps_signal_ok">GPS gut</string>
     <string name="gps_signal_unavailable">GPS nicht verfügbar</string>
-    <string name="guest_add_dialog_alias_title">Pseudonym</string>
+    <string name="gps_signal_unavailable_using_sensor">GPS不可用 正在用计步传感器记录距离</string>
+    <string name="guest_add_dialog_alias_title">Nickname</string>
     <string name="guest_add_format_date">d MMM, yyyy</string>
     <string name="guest_add_format_height">%1$d cm</string>
     <string name="guest_add_format_weight">%1$.1f kg</string>
-    <string name="guest_add_item_alias">Pseudonym</string>
+    <string name="guest_add_item_alias">Nickname</string>
     <string name="guest_add_item_birth">Geburtstag</string>
     <string name="guest_add_item_default_val">nicht gesetzt</string>
     <string name="guest_add_item_gender">Geschlecht</string>
     <string name="guest_add_item_height">Größe</string>
+    <string name="guest_add_item_portrait">头像</string>
     <string name="guest_add_item_weight">Gewicht</string>
     <string name="guest_add_title">Füge Gast hinzu</string>
     <string name="guest_info_more">Mehr</string>
@@ -217,6 +288,7 @@ Lassen Sie dann los."</string>
     <string name="heart_tate_measure_state">Mess-Status:</string>
     <string name="height">Höhe</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hide">隐藏</string>
     <string name="high_pressure">Hochdruck</string>
     <string name="hour">Std</string>
     <string name="hour_target_explain">Trainieren Sie 1 Minute pro Stunde, um das Soll spielend zu erfüllen.</string>
@@ -246,7 +318,9 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="hr_sports_per_80_90">Ihr Puls entspricht dem Pulsbereich, der anaerobes Training nahelegt, um Kraft und Schnelligkeit zu verbessern.</string>
     <string name="hr_sports_per_less_50">Ihr Puls erreicht nicht den Pulsbereich, der für aerobes Training spricht. Sie können ihre Trainingsbemühungen intensivieren.</string>
     <string name="hr_sports_per_more_90">Ihr Puls spricht für intensives anaerobes Training, das ihre Widerstandsfähigkeit und Muskulatur stärkt.</string>
+    <string name="hypotension_explain">您的血压数据在正常范围内偏低，建议您适当加强锻炼，调整饮食，定期检测血压，并尽早咨询医生。</string>
     <string name="import_give_up">Ein Abbruch wird dazu führen, dass Sie die Gesundheitsdienste von ZUK Health nicht nutzen können. Wirklich abbrechen?</string>
+    <string name="keep_the_data">Daten behalten</string>
     <string name="kg">kg</string>
     <string name="kilocalorie">kcal</string>
     <string name="kilometre">km</string>
@@ -261,7 +335,8 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="left_screen_share">Teilen</string>
     <string name="left_screen_start_btn">Nutzung beginnen</string>
     <string name="left_screen_step_unit">Schritte</string>
-    <string name="left_screen_subtitle">Vollziehen Sie ihre Sportaktivitäen, ihren Puls, SpO2 und andere Daten nach und erhalten Sie sinnvolle Vorschläge zur Verbesserung Ihrer Gesundheit.</string>
+    <string name="left_screen_subtitle">"Zeichen Sie alle zur Gesundheit beitragende
+Aktivitäten auf und erhalten Verbesserungsvorschläge."</string>
     <string name="left_screen_title">Willkommen bei U-Health!</string>
     <string name="left_screen_title_two">Alle Aufzeichnungen über Aktivitäten und Gesundheit betrachten.</string>
     <string name="left_screen_toast">Bitte Beenden Sie zuerst die Sitzung</string>
@@ -279,7 +354,10 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="login_zuk">Anmeldung beim ZUK Konto</string>
     <string name="low_pressure">Niedriger Druck</string>
     <string name="m">m</string>
+    <string name="manually_add">Manuelle Eingabe</string>
     <string name="map_time_unit">Dauer (Std)</string>
+    <string name="map_title_btn_share">长图分享</string>
+    <string name="map_title_btn_watermark">水印照片</string>
     <string name="max_distance">Längste Distanz</string>
     <string name="max_heart_rate">Maximaler Puls</string>
     <string name="me">Ich</string>
@@ -290,8 +368,10 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="month">Monat</string>
     <string name="more_trend">Mehr</string>
     <string name="motion_trail">Bewegungsverlauf</string>
-    <string name="movement_consume">Fettverbrennung</string>
-    <string name="movement_time">Bewegunsdauer</string>
+    <string name="movement_consume">Fettverbr.</string>
+    <string name="movement_time">Aktivzeit</string>
+    <string name="movement_time_explain">"每小时起身活动2分钟即可获得1三小时的活跃时长，
+ 每天的最佳活跃时长应大于7小时."</string>
     <string name="msec">Millisekunde</string>
     <string name="my_about">Über mich</string>
     <string name="my_age">Alter</string>
@@ -308,6 +388,8 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="no_hr_sensor">Kein Pulssensor</string>
     <string name="no_longer_remind">Nicht wieder erinnern</string>
     <string name="not_filled">nicht angegeben</string>
+    <string name="notification_growth_value_content">还差1000步即可获得奖励，快快加油吧！</string>
+    <string name="notification_growth_value_title">今日已达成%1$d步</string>
     <string name="notification_running">Sport</string>
     <string name="ok">OK</string>
     <string name="on_foot">Zu Fuß</string>
@@ -319,12 +401,13 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="pace_speed_4">Verdammt schnell</string>
     <string name="pause">Pause</string>
     <string name="pause_cycling">Radfahren ist unterbrochen</string>
-    <string name="pause_running">Rennen ist unterbrochen</string>
-    <string name="pause_walking">Laufen ist unterbrochen</string>
+    <string name="pause_running">Laufen ist unterbrochen</string>
+    <string name="pause_walking">Gehen ist unterbrochen</string>
     <string name="physique_analysis">Körperanalyse</string>
+    <string name="picture_share">照片分享</string>
     <string name="prepare_cycle">Bereit zum Radfahren</string>
-    <string name="prepare_run">Bereit zum Rennen</string>
-    <string name="prepare_walk">Bereit zum Laufen</string>
+    <string name="prepare_run">Bereit zum Laufen</string>
+    <string name="prepare_walk">Bereit zum Gehen</string>
     <string name="pressure_big_relax">Sehr entsprannt</string>
     <string name="pressure_small">Geringer Blutdruck</string>
     <string name="pressure_small_relax">Ziemlich entspannt</string>
@@ -342,6 +425,23 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="record_high">Bestleistung</string>
     <string name="record_high_moumth">Bestleistung (Monat)</string>
     <string name="record_low">schlechteste Leistung</string>
+    <string name="replace_picture">更换图片</string>
+    <string name="result_calorie_unit">消耗(大卡)</string>
+    <string name="result_data_empty">数据为空</string>
+    <string name="result_elevation_down">累计下降</string>
+    <string name="result_elevation_up">累计爬升</string>
+    <string name="result_fastest">最快</string>
+    <string name="result_heart_rate_unit">心率（BPM）</string>
+    <string name="result_i_know">知道了</string>
+    <string name="result_largest">最大</string>
+    <string name="result_least">最小</string>
+    <string name="result_no_data_description">运动过程中，可通过测量心率数值来评估运动强度，并获得更多运动建议。</string>
+    <string name="result_pace_format">第%1$d公里</string>
+    <string name="result_pace_more_close">向上收起</string>
+    <string name="result_pace_more_open">查看更多</string>
+    <string name="result_pace_too_large">运动中曾发生速度异常过快～</string>
+    <string name="result_pace_unit">配速(分钟/公里)</string>
+    <string name="result_share_description">ZUK运动，就要痛快</string>
     <string name="risk_waring">Warnung</string>
     <string name="run_continue">Fortsetzen</string>
     <string name="run_finish">Beenden</string>
@@ -353,17 +453,26 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="run_tv_pace_unit">Geschwindigkeit (Min/km)</string>
     <string name="run_units">Distanz (km)</string>
     <string name="run_vertical_amplitude_unit">Höhendifferenz (cm)</string>
-    <string name="running">Rennen</string>
-    <string name="running_distance">Renndistanz</string>
-    <string name="running_distance_trend">Renndistanzentwicklung</string>
-    <string name="running_time">Renndauer</string>
-    <string name="save_label">Beenden</string>
+    <string name="running">Laufen</string>
+    <string name="running_distance">Distanz</string>
+    <string name="running_distance_trend">Laufdistanzentwicklung</string>
+    <string name="running_string">跑步</string>
+    <string name="running_time">Laufdauer</string>
+    <string name="save_label">OK</string>
     <string name="save_to_album">In Bildgalerie speichern</string>
+    <string name="select_picture">选择图片</string>
+    <string name="select_the_user">选择使用者</string>
     <string name="setp_target_explain">Erzielen Sie genug Schritte, um gesund zu bleiben.</string>
     <string name="share">Teilen</string>
     <string name="share_more">Mehr</string>
+    <string name="share_map_loading">地图读取中，请稍等</string>
+    <string name="share_more">更多</string>
+    <string name="share_save_failed">保存失败</string>
+    <string name="share_save_succeed">已保存到相册</string>
+    <string name="share_saving">处理中，请稍等</string>
     <string name="shen_qi_copyright">Copyright © 2015 Shen Qi All rights reserved</string>
     <string name="speed">Geschwindigkeit</string>
+    <string name="splash_U_agreement">您已同意U健康服务条款</string>
     <string name="splash_title_five">Bereitstellung akkurater Daten, basierend auf Ihren persönlichen Informationen</string>
     <string name="splash_title_four">Nach der Anmeldung können Sie ganz einfach auf Ihre History zugreifen</string>
     <string name="splash_title_one">Willkommen bei ZUK Health</string>
@@ -372,6 +481,8 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="spo2_90_95">Weist auf niedrigen Sauerstofftransportkapazität des Blutes hin, ein Rückgang des SpO2 kann durch niedrige Sauerstoffversorgung der Umwelt oder Sport hervorgerufen werden. Es wird empfohlen, eine Pause einzulegen und SpO2 zu überwachen.</string>
     <string name="spo2_95_100">Weist auf normalen SpO2-Wert hin.</string>
     <string name="spo2_less_90">Weist auf Hypoxämie hin. Bitte versuchen Sie es noch ein paar Mal bei stetiger Atmung und suchen Sie einen Arzt auf, falls nötig.</string>
+    <string name="sport_result_time_unit_description">时间(时:分:秒)</string>
+    <string name="sport_setting">设置</string>
     <string name="sports_record_details">Schritte</string>
     <string name="sports_target">Tägliche Ziele</string>
     <string name="step">Schritte</string>
@@ -381,12 +492,12 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="step_three_title_result_three"> Kilokalorien</string>
     <string name="step_three_title_result_two"> Schritte pro Tag, 12 Stunden Aktivität, mit einer Verbrennung von </string>
     <string name="steps">Schritte</string>
-    <string name="steps_explain">Bezieht sich auf die Anzahl an Schritten pro Tag. Der ZUK Sensor zeichnet die Anzahl Ihrer Schritt beim Laufen, Rennen, Treppensteigen und anderen Aktivitäten auf.</string>
+    <string name="steps_explain">Bezieht sich auf die Anzahl an Schritten pro Tag. Der ZUK Sensor zeichnet die Anzahl Ihrer Schritt beim Gehen, Laufen, Treppensteigen und anderen Aktivitäten auf.</string>
     <string name="stop_cycling_for_other_sport">Bitte beenden Sie das Radfahren, bevor Sie ein anderes Training starten</string>
-    <string name="stop_running_for_other_sport">Bitte beenden Sie das Rennen, bevor Sie ein anderes Training starten</string>
-    <string name="stop_walking_for_other_sport">Bitte beenden Sie das Laufen, bevor Sie ein anderes Training starten</string>
+    <string name="stop_running_for_other_sport">Bitte beenden Sie das Laufen, bevor Sie ein anderes Training starten</string>
+    <string name="stop_walking_for_other_sport">Bitte beenden Sie das Gehen, bevor Sie ein anderes Training starten</string>
     <string name="stride">Geschwindigkeit</string>
-    <string name="stride_interpretation">Die Kadenz beschreibt die Schritte pro Minute und ist einer der wichtigen Faktoren, die zwischen Laufen und Rennen unterscheiden. Im Allgemeinen liegt die Geschwindigkeit beim Rennen bei 150 bis 200 Schritten pro Minute, 180 Schritte pro Minute werden als recht effiziente Kadenz angenommen.</string>
+    <string name="stride_interpretation">Die Kadenz beschreibt die Schritte pro Minute und ist einer der wichtigen Faktoren, die zwischen Gehen und Laufen unterscheiden. Im Allgemeinen liegt die Geschwindigkeit beim Laufen bei 150 bis 200 Schritten pro Minute, 180 Schritte pro Minute werden als recht effiziente Kadenz angenommen.</string>
     <string name="text_body_fat_rate">Körperfettanteil(optional)</string>
     <string name="text_spo2_unit">SpO2 (%）</string>
     <string name="title_activity_share">Aktivität teilen</string>
@@ -396,12 +507,34 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="toast_time_cannot_be_zero">Die Dauer kann nicht Null betragen</string>
     <string name="today">Heute</string>
     <string name="today_movement">Heutige Aktivität</string>
+    <string name="total_sport_count_cycling">总骑行次数</string>
+    <string name="total_sport_count_run">总跑步次数</string>
+    <string name="total_sport_count_walk">总健走次数</string>
+    <string name="total_sport_description">点击数字查看历史记录</string>
+    <string name="total_sport_distance">总公里数</string>
+    <string name="total_sport_duration">总时长(小时)</string>
+    <string name="total_sport_first_cycling">"开始你的
+第一次骑行吧"</string>
+    <string name="total_sport_first_run">"开始你的
+第一次跑步吧"</string>
+    <string name="total_sport_first_walk">"开始你的
+第一次健走吧"</string>
+    <string name="total_sport_please_open_gps">请去系统设置中打开定位服务</string>
+    <string name="total_sport_start">开始</string>
     <string name="trend_of_movement">Sportlicher Trend</string>
     <string name="trend_summary">Trends</string>
-    <string name="tv_error_msg1">Stellen Sie sicher, dass der Sensor angebracht ist</string>
-    <string name="tv_error_msg2">Position bis zum Erhalt der Ergebnisse halten</string>
+    <string name="tv_blue_bp">低血压</string>
+    <string name="tv_error_msg1">"Legen Sie ihren Finger auf den Sensor
+und halten Sie die Positon bis die Messung abgeschlossen ist"</string>
+    <string name="tv_green_bp">最适当血压</string>
+    <string name="tv_light_green_bp">正常血压</string>
+    <string name="tv_light_red_bp">中度高血压</string>
+    <string name="tv_light_yellow_bp">正常偏高血压</string>
+    <string name="tv_red_bp">重度高血压</string>
+    <string name="tv_yellow_bp">轻度偏高血压</string>
     <string name="unbind_failed_retry">Nochmal</string>
     <string name="unbind_failed_title">Entkopplung fehlgeschlagen</string>
+    <string name="using_device_note">请将设备放在坚实平整的地面上, 赤脚踩在设备上</string>
     <string name="uv_action_director_attention1">Hinweis: Glas schirmt UV-Strahlen ab, bitte messen Sie außen.</string>
     <string name="uv_action_director_attention2">Achten Sie darauf, nicht direkt in die Sonne zu sehen.</string>
     <string name="uv_action_director_btn_start">Start</string>
@@ -420,10 +553,15 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="uv_description_level5_title">Höher als 10:</string>
     <string name="uv_measuring_description">Messung im Gange, bewegen Sie das Telefon nicht</string>
     <string name="uv_measuring_title">UV Details</string>
-    <string name="version_name">Version：1.0.0</string>
-    <string name="walk_today">Schritte</string>
-    <string name="walking">Laufen</string>
-    <string name="walking_distance">Laufdistanz</string>
+    <string name="version_name">Version:</string>
+    <string name="voice_reminder">语音提醒</string>
+    <string name="walk_distance">健走距离</string>
+    <string name="walk_distance_trend">健走距离趋势</string>
+    <string name="walk_today">Heute gegangen</string>
+    <string name="walking">Gehend</string>
+    <string name="walking_distance">Distanz</string>
+    <string name="walking_string">健走</string>
+    <string name="walking_time">健走时长</string>
     <string name="warning_msg">Ausloggen vom ZUK Konto / "Daten löschen" kann zum Datenverlust von U-Health führen. Bitte Datensyncronisierung An lassen.</string>	
     <string name="week">Woche</string>
     <string name="weight">Gewicht</string>
@@ -446,10 +584,18 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="weight_detail_deviation_weight">Gewicht %1$dkg</string>
     <string name="weight_detail_divider_normal">Normale Indikatoren</string>
     <string name="weight_detail_divider_problem">Bedenkliche Indikatoren</string>
-    <string name="weight_detail_health_advice_1">Ihr Körper ist dürr, das Risiko für andere Krankheiten steigt.</string>
-    <string name="weight_detail_health_advice_2">Ihr Körper ist normal, weiteres Training hilft dabei, ihn gut in Form zu halten.</string>
-    <string name="weight_detail_health_advice_3">Ihr Körper ist leicht übergewichtig, eine Gewichtsverringerung hilft Ihnen dabei, sich gut in Form zu halten.</string>
-    <string name="weight_detail_health_advice_4">Ihr Körper ist ziemlich fett, hohes Erkrankungsrisiko, es wird empfohlen, die eingestellten Trainingsmaßnahmen zur Gewichtskontrolle mittels Training durchzuführen</string>
+    <string name="weight_detail_health_advice_1">"Ihr Körper ist dürr, 
+das Risiko für andere Krankheiten steigt."</string>
+    <string name="weight_detail_health_advice_2">"Ihr Körper ist normal, 
+weiteres Training hilft dabei, ihn gut in Form zu halten."</string>
+    <string name="weight_detail_health_advice_3">"Ihr Körper ist leicht übergewichtig, 
+eine Gewichtsverringerung hilft Ihnen dabei, sich gut in Form zu halten."</string>
+    <string name="weight_detail_health_advice_4">"Ihr Körper ist ziemlich fett, 
+hohes Erkrankungsrisiko, es wird empfohlen, die eingestellten Trainingsmaßnahmen zur Gewichtskontrolle mittels Training durchzuführen"</string>
+    <string name="weight_detail_incomplete">测量结果不完整</string>
+    <string name="weight_detail_incomplete_action">重新测量</string>
+    <string name="weight_detail_incomplete_advice">"1 请确保赤脚站在设备上
+2 请将设备放在坚实平整的地面上"</string>
     <string name="weight_detail_intro_basal_metabolic_rate">Bezieht sich auf den Stoffwechsel eines gelassenen und sehr ruhigen Menschen. Je höher der Grundumsatz, desto mehr Kalorien werden täglich verbraucht und eine Gewichtszunahme ist unwahrscheinlich.</string>
     <string name="weight_detail_intro_bmi">Der BMI wird durch die Teilung des Gewichts durch die Wurzel der Größe in Metern bestimmt. Dies ist eine internationale Maßeinheit bezüglich Körperfett und Gesundheit.</string>
     <string name="weight_detail_intro_body_fat">Bezieht sich auf das Verhältnis des Körperfettgewichts im Verhältnis zum Gesamtkörpergewicht und reflektiert den Gehalt an Körperfett.</string>
@@ -495,5 +641,17 @@ Bitte bewegen Sie ihren Finger nicht."</string>
     <string name="yesterday">Gestern</string>
     <string name="yesterdayStatistics">Bewegungsstatistik</string>
     <string name="have_save_to_album">Im Album gespeichert.</string>
-    <string name="manually_add">hinzugefügt</string>
+    <string name="device_display_name_jabra_pulse">Jabra PULSE</string>
+    <string name="heart_rate_camera_guide_close_msg">长时间未操作，心率测量已关闭</string>
+    <string name="heart_rate_camera_guide_msg">请把手指覆盖在摄像头上</string>
+    <string name="heart_rate_camera_measure_error">"请重新放置手指
+并确保手指覆盖在摄像头上"</string>
+    <string name="heart_rate_camera_measure_error_pre_close">"检测到您长时间未操作，即将为您关闭
+本页面。(%1$d)"</string>
+    <string name="heart_rate_camera_measure_error_too_long_to_close">操作时间过长，心率测量已关闭</string>
+    <string name="heart_rate_camera_measure_loop_msg_1">请确保手指覆盖在摄像头上</string>
+    <string name="heart_rate_camera_measure_loop_msg_2">尝试保持静止和安静</string>
+    <string name="heart_rate_camera_measure_pre_deliver_msg">即将测量完成</string>
+    <string name="heart_rate_camera_measure_result_explain">数据仅供参考，如果想获得更精确的心率数据，请使用带有专业心率监测传感器的联想ZUK Pro系列手机或医疗设备测量。</string>
+    <string name="heart_rate_camera_title">心率监测</string>
 </resources>

@@ -12,7 +12,7 @@
     <string-array name="exercise_array">
         <item>Gehen</item>
         <item>Laufen</item>
-        <item>Fahrrad fahren</item>
+        <item>Radfahren</item>
         <item>Treppen steigen</item>
         <item>Indoor laufen</item>
         <item>Spinning</item>
@@ -34,7 +34,7 @@
     <string-array name="exercise_array_healthy_list">
         <item>Gehen</item>
         <item>Laufen</item>
-        <item>Fahrrad fahren</item>
+        <item>Radfahren</item>
         <item>Treppen steigen</item>
         <item>Indoor laufen</item>
         <item>Spinning</item>
@@ -149,4 +149,9 @@
         <item>23</item>
         <item>24</item>
     </string-array>
+    <string-array name="exercise_array_share">
+        <item>Gehen</item>
+        <item>Laufen</item>
+        <item>Radfahren</item>
+    </string-array>	
 </resources>

@@ -37,6 +37,26 @@
     <string name="lesafe_hour_ago">%1$s小时前</string>
     <string name="lesafe_yesterday">昨天</string>
     <string name="lesafe_loading">正在加载...</string>
+    <string name="app_name">安全中心</string>
+    <string name="fr_white_list">超速保护名单</string>
+    <string name="fr_add_white_list">添加保护名单</string>
+    <string name="fr_cancel">取消</string>
+    <string name="fr_finish">完成</string>
+    <string name="fr_remove_whitelist">移除</string>
+    <string name="fr_add_app_empty">还没有应用哦</string>
+    <string name="fr_system_app">系统应用%1$s</string>
+    <string name="fr_third_app">用户应用%1$s</string>
+    <string name="fr_whitelist_suggest_check">建议勾选</string>
+    <string name="fr_process_service_subfix">:服务</string>
+    <string name="not_stop_playing">不暂停正在播放音乐的应用</string>
+    <string name="not_stop_recording">不暂停正在录音的应用</string>
+    <string name="not_stop_bluetooth">不暂停正在蓝牙连接的应用</string>
+    <string name="not_stop_floatwindow">不暂停含浮窗的应用</string>
+    <string name="not_stop_notification">不暂停常驻通知栏的应用</string>
+    <string name="not_stop_sport">不暂停含记步功能的应用</string>
+    <string name="not_stop_nav">不暂停含导航功能的应用</string>
+    <string name="not_stop_whitelist">不暂停保护白名单</string>
+    <string name="show_float_window">显示暂停详情浮窗</string>
     <string name="unlock_view_cancel">取消</string>
     <string name="applock_unlock_try">指纹验证模式，请再次验证指纹</string>
     <string name="unlock_fail">无法识别指纹</string>
@@ -44,13 +64,13 @@
     <string name="hardware_error_prompt">可在“指纹和密码“中暂时关闭应用锁</string>
     <string name="applock_spec_pkgname_name">电话</string>
     <string name="app_unlock_delay"><Data>“%1$s” 已加锁，&lt;font color=#FF0000>%2$s秒&lt;/font>后可验证指纹</Data></string>
+    <string name="applock_gallery_name">图库</string>
     <string name="applock_list_null">无加锁应用</string>
     <string name="applock_main_title">已加锁应用</string>
     <string name="applock_select_app_title">添加加锁应用</string>
     <string name="applock_title_cancel">取消</string>
     <string name="applock_title_finished">完成</string>
     <string name="applock_remove_lock_app">移除</string>
-    <string name="app_name">安全中心</string>
     <string name="cleanmgr_fm_normalclean_title">空间清理</string>
     <string name="cleanmgr_fm_current_junk">当前垃圾(%1$s)</string>
     <string name="cleanmgr_fm_cleanitem_cache">缓存文件</string>
@@ -191,6 +211,8 @@
     <string name="music_type_app_clean_notify_message">移除%s，加速后正在播放的音乐有可能会退出，建议保留。</string>
     <string name="clock_type_app_clean_notify_message">移除%s，已设定的闹铃提醒有可能会不响，建议保留。</string>
     <string name="calendar_type_app_clean_notify_message">移除%s，日程提醒可能受到影响，建议保留。</string>
+    <string name="zui_usercenter_type_app_clean_notify_message">移除%s，成长值可能无法正常获得，建议保留。</string>
+    <string name="zui_zhealthy_type_app_clean_notify_message">移除%s，您的步数可能无法准确记录，建议保留。</string>
     <string name="dialog_continue">保留</string>
     <string name="fm_memory_clean_title">内存加速</string>
     <string name="fm_memory_clean_manage_protect_list_title">添加保护名单</string>
@@ -212,6 +234,9 @@
     <string name="fm_setting_item_smart_meory_clean_desc_text">根据内存使用情况自动释放闲置内存，持续保持手机轻快流畅。</string>
     <string name="fm_operation_log_smart_clean_result_text">自动加速内存%1$s次，延长待机约%2$s分钟。</string>
     <string name="fm_memory_status_clean_text">手机很清新，暂无可清理的应用。</string>
+    <string name="fm_setting_item_smart_app_pausing_text">应用超速</string>
+    <string name="fm_setting_item_smart_app_pausing_description_text">开启后，自动暂停运行后台闲置的应用和服务，暂停运行后能省电省流量，并且释放系统资源，从而保证运行其他应用更快速流畅。</string>
+    <string name="fm_setting_item_smart_app_pausing_sub_settings_text">应用超速设置</string>
     <string name="autorun_stuburn_app_title">顽固自启应用</string>
     <string name="autorun_normal_app_title">自启应用</string>
     <string name="autorun_slient_start_app_title">关联启动应用</string>
@@ -231,13 +256,15 @@
     <string name="autorun_slient_start_title">关联应用会被其他应用偷偷唤起，耗电耗流量，占用内存拖慢手机；禁止关联后，将不能被其它应用唤起。</string>
     <string name="autorun_clock_waring_prompt">将闹钟移除保护名单，加速内存后闹钟将无法正常使用，重要约会或上班会受影响，确定移除这项吗？</string>
     <string name="autorun_calendar_waring_prompt">将日历移除保护名单，加速内存后日历提示将无法正常使用，确定移除这项吗？</string>
+    <string name="autorun_uhealthy_waring_prompt">将U健康移除保护名单，加速内存后桌面负一屏将无法正常使用，且无法准确记录您的步数，确定移除这项吗？</string>
+    <string name="autorun_ucenter_warning_prompt">将用户中心移除保护名单，加速内存后将无法正常获得成长值，确定移除这项吗？</string>
     <string name="autorun_tip">断开全部关联</string>
     <string name="autorun_slient_start_close_all_prompt">关联应用将不能被其它应用偷偷唤起</string>
     <string name="autorun_remove">移除</string>
     <string name="autorun_keep">保留</string>
     <string name="autorun_close_slient_start">断开关联</string>
     <string name="autorun_number_stubburn_app">%1$d个顽固自启应用</string>
-    <string name="autorun_number_stubburn_app_part2">频繁自启动，耗电耗流量，占用内存拖慢手机</string>
+    <string name="autorun_number_stubburn_app_part2">频繁自启动，耗电耗流量，占用内存拖慢手机。</string>
     <string name="autorun_number_normal_app">%1$d个普通自启应用</string>
     <string name="autorun_number_normal_app_part2">开机、联网等操作时，后台偷偷自启，耗电耗流量，占用内存拖慢手机。</string>
     <string name="autorun_normal_app_desc">普通自启应用</string>
@@ -583,4 +610,5 @@
     <string name="cleanmgr_fm_autolaunch_stop_text_allban">查看详情</string>
     <string name="cleanmgr_fm_power_off">操作过程中请勿关机</string>
     <string name="cleanmgr_fm_autolaunch_allban">%1$s个应用已全部禁止自启</string>
+    <string name="applock_weixin_name">weixinqianbao</string>
 </resources>

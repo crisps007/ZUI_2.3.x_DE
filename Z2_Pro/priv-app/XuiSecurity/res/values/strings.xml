@@ -40,6 +40,26 @@
     <string name="lesafe_hour_ago">%1$s hours ago</string>
     <string name="lesafe_yesterday">yesterday</string>
     <string name="lesafe_loading">Loading...</string>
+    <string name="app_name">SafeCenter</string>
+    <string name="fr_white_list">Overclock Protection List</string>
+    <string name="fr_add_white_list">Add to protection list</string>
+    <string name="fr_cancel">Cancel</string>
+    <string name="fr_finish">Complete</string>
+    <string name="fr_remove_whitelist">Remove</string>
+    <string name="fr_add_app_empty">No apps found</string>
+    <string name="fr_system_app">System app %1$s</string>
+    <string name="fr_third_app">User app %1$s</string>
+    <string name="fr_whitelist_suggest_check">Recommended selections</string>
+    <string name="fr_process_service_subfix">: services</string>
+    <string name="not_stop_playing">Do not suspend apps that are currently playing music</string>
+    <string name="not_stop_recording">Do not suspend apps that currently doing audio recording</string>
+    <string name="not_stop_bluetooth">Do not suspend apps that are currently connecting via Bluetooth</string>
+    <string name="not_stop_floatwindow">Do not suspend apps with floating windows</string>
+    <string name="not_stop_notification">Do not suspend apps that are resident in the notification bar</string>
+    <string name="not_stop_sport">Do not suspend apps with pedometer functions</string>
+    <string name="not_stop_nav">Do not suspend apps with navigation functions</string>
+    <string name="not_stop_whitelist">Do not suspend apps in the protection whitelist</string>
+    <string name="show_float_window">Display the App Suspension Details window</string>
     <string name="unlock_view_cancel">Cancel</string>
     <string name="applock_unlock_try">Try to verify your fingerprint again</string>
     <string name="unlock_fail">Unrecognized fingerprint</string>
@@ -48,13 +68,13 @@
     <string name="applock_spec_pkgname_name">Phone</string>
     <string name="app_unlock_delay"><Data>“%1$s” is locked</Data></string>
     <string name="app_unlock_delay_sub"><Data>you can verify fingerprint in &lt;font color=#FF0000>%1$sseconds&lt;/font></Data></string>
+    <string name="applock_gallery_name">Gallery</string>
     <string name="applock_list_null">No lock application...</string>
     <string name="applock_main_title">Locked App</string>
     <string name="applock_select_app_title">Lock App up</string>
     <string name="applock_title_cancel">Cancel</string>
     <string name="applock_title_finished">Complete</string>
     <string name="applock_remove_lock_app">Remove</string>
-    <string name="app_name">SafeCenter</string>
     <string name="cleanmgr_fm_normalclean_title">Space Clean</string>
     <string name="cleanmgr_fm_current_junk">Current junk files (%1$s)</string>
     <string name="cleanmgr_fm_cleanitem_cache">Cache</string>
@@ -208,6 +228,8 @@ Clean"</string>
     <string name="music_type_app_clean_notify_message">If remove %s, playing music may stop after the acceleration, recommend to reserve.</string>
     <string name="clock_type_app_clean_notify_message">If remove %s, the alarm may not ring, recommend to reserve.</string>
     <string name="calendar_type_app_clean_notify_message">If remove %s, schedule reminders may be affected, recommend to reserve.</string>
+    <string name="zui_usercenter_type_app_clean_notify_message">If remove %s, your growth may not be calculated accurately, recommend to reserve.</string>
+    <string name="zui_zhealthy_type_app_clean_notify_message">If remove %s, your steps data may not be record accurately, recommend to reserve.</string>
     <string name="dialog_continue">Reserve</string>
     <string name="fm_memory_clean_title">Accelerate</string>
     <string name="fm_memory_clean_manage_protect_list_title">Add to protection list</string>
@@ -229,6 +251,9 @@ Clean"</string>
     <string name="fm_setting_item_smart_meory_clean_desc_text">Automatically release unused memory according to the memory usage, and keep your phone health.</string>
     <string name="fm_operation_log_smart_clean_result_text">Auto accelerate %1$s time, extend %2$s minutes</string>
     <string name="fm_memory_status_clean_text">Your phone is very health, no apps need cleanup.</string>
+    <string name="fm_setting_item_smart_app_pausing_text">App Overclock</string>
+    <string name="fm_setting_item_smart_app_pausing_description_text">When this feature is enabled, idle background apps and services will be automatically suspended to conserve battery power and reduce data usage, and to free up system resources. This allows other apps to run more quickly and smoothly.</string>
+    <string name="fm_setting_item_smart_app_pausing_sub_settings_text">App Overclock Settings</string>
     <string name="autorun_stuburn_app_title">Stubborn Autostart Apps</string>
     <string name="autorun_normal_app_title">Autostart Apps</string>
     <string name="autorun_slient_start_app_title">Associated Autostart</string>
@@ -248,6 +273,8 @@ Clean"</string>
     <string name="autorun_slient_start_title">Associated apps are started automatically and secretly by other apps. Not only do they increase power and data consumption, they also take up memory and slow down the phone. After disabling the associations, these apps cannot be started by other apps.</string>
     <string name="autorun_clock_waring_prompt">If Clock is removed from the whitelist, it may not run properly after memory boost. Your appointments and work schedule may be affected. Remove this item?</string>
     <string name="autorun_calendar_waring_prompt">"If the Calendar is removed from the whitelist, it will not run properly after your phone's memory is accelerated. Remove this item?"</string>
+    <string name="autorun_uhealthy_waring_prompt">If the U Health is removed from the whitelist, your Health Desktop may not run properly after memory boost, and the pedometer will be affected. Remove this item?</string>
+    <string name="autorun_ucenter_warning_prompt">If the User Center is removed from the whitelist, your growth may not be calculated accurately after your phone’s memory is accelerated. Remove this item?</string>
     <string name="autorun_tip">Disable all associations</string>
     <string name="autorun_slient_start_close_all_prompt">Associated apps will no longer be automatically and secretly started by other apps</string>
     <string name="autorun_remove">Remove</string>
@@ -472,7 +499,7 @@ Delete"</string>
     <string name="manui_residual_low">Remaining data(%1$s)</string>
     <string name="manui_beyond_low">Exceeded data(%1$s)</string>
     <string name="manui_residual_monitor">Data Usage</string>
-    <string name="manui_notset_residual">data usage package</string>
+    <string name="manui_notset_residual">data usage</string>
     <string name="manui_autorun_num">Autostart app(s)</string>
     <string name="manui_memory_title">Only %1$d of free memory left. You should accelerate your memory now.</string>
     <string name="manui_memory_content">%1$d apps are currently running and using %2$s of the memory.</string>
@@ -480,7 +507,7 @@ Delete"</string>
     <string name="manui_autorun_content">%1$d apps are auto-starting frequently</string>
     <string name="manui_silent_autorun_content">%1$d associated apps are auto-starting frequently.</string>
     <string name="manui_spaceclean_title">Space Clean</string>
-    <string name="manui_spaceclean_content">%1$s of free space remaining, perform Advanced Clean to free up more space.</string>
+    <string name="manui_spaceclean_content">%1$s of free space remaining</string>
     <string name="manui_onekey_accelerate">Boost</string>
     <string name="manui_onekey_uninstall">One-key uninstall</string>
     <string name="manui_onekey_deleted">One-key delete</string>

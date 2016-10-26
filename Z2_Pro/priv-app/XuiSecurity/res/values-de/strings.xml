@@ -39,6 +39,25 @@
     <string name="lesafe_yesterday">Gestern</string>
     <string name="lesafe_loading">Wird geladen...</string>
 	<string name="app_name">Safe Center</string>
+    <string name="fr_white_list">Übertaktungs-Whitelist</string>
+    <string name="fr_add_white_list">Zur Whitelist hinzufügen</string>
+    <string name="fr_cancel">Abbrechen</string>
+    <string name="fr_finish">OK</string>
+    <string name="fr_remove_whitelist">Entfernen</string>
+    <string name="fr_add_app_empty">Keine Apps gefunden</string>
+    <string name="fr_system_app">System-App %1$s</string>
+    <string name="fr_third_app">Benutzer-App %1$s</string>
+    <string name="fr_whitelist_suggest_check">Zur Auswahl empfohlen</string>
+    <string name="fr_process_service_subfix">: Dienst</string>
+    <string name="not_stop_playing">Keine Apps beenden die gerade Musik abspielen</string>
+    <string name="not_stop_recording">Keine Apps beenden die gerade eine Audio aufnehmen</string>
+    <string name="not_stop_bluetooth">Keine Apps beenden die gerade Bluetooth verwenden</string>
+    <string name="not_stop_floatwindow">Keine Apps beenden die gerade in schwebende Fenster sind</string>
+    <string name="not_stop_notification">Keine Apps beenden die sich in der Statusleiste befinden</string>
+    <string name="not_stop_sport">Keine Apps beenden die eine Schrittzähler-Funktion besitzen</string>
+    <string name="not_stop_nav">Keine Apps beenden die zur Navigation helfen</string>
+    <string name="not_stop_whitelist">Keine Apps aus der Whitelist beenden</string>
+    <string name="show_float_window">Beendete Apps im Schwebenden Fenster anzeigen</string>
     <string name="unlock_view_cancel">Abbrechen</string>
 	<string name="applock_unlock_try">Fingerabdruck erneut überprüfen</string>
     <string name="unlock_fail">Fingerabdruck nicht erkannt</string>
@@ -46,6 +65,7 @@
     <string name="hardware_error_prompt">In der Einstellung Fingerabdruck und Passwort können Sie vorübergehend die App-Sperre deaktivieren.</string>
     <string name="applock_spec_pkgname_name">Telefon</string>
     <string name="app_unlock_delay"><Data>“%1$s” wird in &lt;font color=#FF0000>%2$sSekunden&lt;/font> gesperrt. Nach Bestätigung Ihres Fingerabdruckes</Data></string>
+    <string name="applock_gallery_name">Gallerie</string>
     <string name="applock_list_null">Keine gesperrten Apps</string>
     <string name="applock_main_title">Gesperrte Apps</string>
     <string name="applock_select_app_title">Zu sperrende Apps hinzufügen</string>
@@ -204,6 +224,8 @@
     <string name="music_type_app_clean_notify_message">Entferne %s, abspielen von Musik kann nach Optimierung stoppen, Reservierung wird empfohlen.</string>
     <string name="clock_type_app_clean_notify_message">Entferne %s, Wecker klingelt evtl. nicht, Reservierung wird empfohlen.</string>
     <string name="calendar_type_app_clean_notify_message">Entferne %s, Terminbenachrichtigungen können entfallen, Reservierung wird empfohlen.</string>
+    <string name="zui_usercenter_type_app_clean_notify_message">移除%s，成长值可能无法正常获得，建议保留。</string>
+    <string name="zui_zhealthy_type_app_clean_notify_message">Wenn Sie %s entfernen，werden Ihre Schritte möglicherweise nicht richtig aufgezeichnet.</string>
     <string name="dialog_continue">Beibehalten</string>
     <string name="fm_memory_clean_title">RAM bereinigen</string>
     <string name="fm_memory_clean_manage_protect_list_title">Zur Whitelist hinzufügen</string>
@@ -225,6 +247,9 @@
     <string name="fm_setting_item_smart_meory_clean_desc_text">Automatische RAM Bereinigung, je nach Speichernutzung.</string>
     <string name="fm_operation_log_smart_clean_result_text">Autom. %1$s RAM bereinigt, Standby Zeit um etwa %2$s Minuten verlängert.</string>
     <string name="fm_memory_status_clean_text">Keine Bereinigung notwendig</string>
+    <string name="fm_setting_item_smart_app_pausing_text">App übertakten</string>
+    <string name="fm_setting_item_smart_app_pausing_description_text">开启后，自动暂停运行后台闲置的应用和服务，暂停运行后能省电省流量，并且释放系统资源，从而保证运行其他应用更快速流畅。</string>
+    <string name="fm_setting_item_smart_app_pausing_sub_settings_text">应用超速设置</string>
     <string name="autorun_stuburn_app_title">Dauerhafte Autostart Apps</string>
     <string name="autorun_normal_app_title">Autostart Apps</string>
     <string name="autorun_slient_start_app_title">Fremdgestartete Autostart Apps</string>
@@ -244,6 +269,8 @@
     <string name="autorun_slient_start_title">In Verbindung stehende Apps können von anderen Apps automatisch gestartet werden. Es kann nicht nur den Akku-&amp; Datenverbrauch, sondern auch den RAM-Speicher belegen und evtl. das Telefon verlangsamen. Nach Deaktivierung des Autostarts, können diese Apps nicht mehr von anderen Apps gestartet werden.</string>
     <string name="autorun_clock_waring_prompt">Wenn die Uhr aus der Whitelist entfernt wird, kann die Uhr nach RAM-Bereinigung nicht mehr ordnungsgemäß ausgeführt werden. Ihre Termine und Weckzeiten können entfallen. Trotzdem entfernen?</string>
     <string name="autorun_calendar_waring_prompt">Wenn der Kalender aus der Whitelist entfernt wird, kann der Kalender nach RAM-Bereinigung nicht mehr ordnungsgemäß ausgeführt werden. Trotzdem entfernen?</string>
+    <string name="autorun_uhealthy_waring_prompt">将U健康移除保护名单，加速内存后桌面负一屏将无法正常使用，且无法准确记录您的步数，确定移除这项吗？</string>
+    <string name="autorun_ucenter_warning_prompt">将用户中心移除保护名单，加速内存后将无法正常获得成长值，确定移除这项吗？</string>
     <string name="autorun_tip">Alle Fremdstarts deaktivieren</string>
     <string name="autorun_slient_start_close_all_prompt">In Verbindung stehende Apps werden nicht mehr von anderen Apps automatisch gestartet.</string>
     <string name="autorun_remove">Entfernen</string>
@@ -684,4 +711,5 @@ Verarbeitet"</string>
     <string name="cleanmgr_fm_autolaunch_stop_text_allban">Details anzeigen</string>
     <string name="cleanmgr_fm_power_off">Telefon nicht während dem Vorgang ausschalten</string>
     <string name="cleanmgr_fm_autolaunch_allban">%1$s Apps vom Autostart ausgeschalten</string>	
+    <string name="applock_weixin_name">weixinqianbao</string>
 </resources>

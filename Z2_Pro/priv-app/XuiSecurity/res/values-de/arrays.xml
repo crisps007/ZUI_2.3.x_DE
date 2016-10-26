@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perms_category">
+        <item>Telefonieren %amp; Nachrichten</item>
+        <item>Datenschutz</item>
+        <item>Multimedia</item>
+        <item>Einstellung</item>
+    </string-array>
+    <string-array name="perms_mode">
+        <item>Annehmen</item>
+        <item>Ablehnen</item>
+        <item>Fragen</item>
+        <item>Unbekannt</item>
+    </string-array>
+    <string-array name="choose_mode_three_state">
+        <item>Annehmen</item>
+        <item>Fragen</item>
+        <item>Ablehnen</item>
+    </string-array>
+    <string-array name="choose_mode_two_state">
+        <item>Annehmen</item>
+        <item>Ablehnen</item>
+    </string-array>
+    <string-array name="op_to_perms_name">
+        <item>Standortzugriff</item>
+        <item>Standortzugriff</item>
+        <item>Standortzugriff</item>
+        <item>Vibration</item>
+        <item>Zugriff auf Kontakte</item>
+        <item>Zugriff auf Kontakte</item>
+        <item>Zugriff auf Anrufsliste</item>
+        <item>Zugriff auf Anrufsliste</item>
+        <item>Zugriff auf Kalender</item>
+        <item>Zugriff auf Kalender</item>
+        <item>Standortzugriff</item>
+        <item>Push-Benachrichtigung</item>
+        <item>Standortzugriff</item>
+        <item>Telefonieren</item>
+        <item>Zugriff auf SMS</item>
+        <item>Zugriff auf SMS</item>
+        <item>SMS/MMS empfangen</item>
+        <item>SMS/MMS empfangen</item>
+        <item>SMS/MMS empfangen</item>
+        <item>SMS/MMS empfangen</item>
+        <item>SMS/MMS senden</item>
+        <item>Zugriff auf SMS</item>
+        <item>Zugriff auf SMS</item>
+        <item>Systemeinstellung ändern</item>
+        <item>Schwebende Fenster anzeigen</item>
+        <item>Zugriff auf Benachrichtigung</item>
+        <item>Zugriff auf Kamera</item>
+        <item>Tonaufname einschalten</item>
+        <item>Audio wiedergeben</item>
+        <item>Zwischenablage lesen</item>
+        <item>Zwischenablage ändern</item>
+        <item>Medienschaltflächen</item>
+        <item>Audio Fokus</item>
+        <item>Gesamtlautstärke</item>
+        <item>Sprachlautstärke</item>
+        <item>Klingeltonlautstärke</item>
+        <item>Medienlautstärke</item>
+        <item>Weckerlautstärke</item>
+        <item>Benachrichtigungslautstärke</item>
+        <item>Bluetooth-Lautstärke</item>
+        <item>Aktiv lassen</item>
+        <item>Standortzugriff</item>
+        <item>Standortzugriff</item>
+        <item>Nutzungsstatistik abrufen</item>
+        <item>Mikrofon aus- oder einschalten</item>
+        <item>Toast window</item>
+        <item>Projektion von Medieninhalten</item>
+        <item>VPN aktivieren</item>
+        <item>Wi-Fi öffnen</item>
+        <item>Bluetooth einschalten</item>
+        <item>SMS/MMS senden</item>
+        <item>Zugriff auf MMS</item>
+        <item>Zugriff auf MMS</item>
+        <item>Autostart apps</item>
+        <item>NFC ändern</item>
+        <item>Zugriff auf SMS</item>
+        <item>Zugriff auf MMS</item>
+        <item>Zugriff auf Kontakte</item>
+        <item>Zugriff auf Anrufsliste</item>
+        <item>Mobile Daten aktivieren</item>
+        <item>Geräteinformation abrufen</item>
+        <item>Verknüpfung erstellen</item>
+        <item>Zugriff auf Gallerie</item>
+        <item>Telefonnummer lesen</item>
+        <item>Hintergrund erstellen</item>
+        <item>Assist structure</item>
+        <item>Assist screenshot</item>
+        <item>Telfonstatus lesen</item>
+        <item>Mailbox hinzufügen</item>
+        <item>SIP benutzen</item>
+        <item>Abgehende Anrufe tätigen</item>
+        <item>Fingerprint verwenden</item>
+        <item>Sensoren verwenden</item>
+        <item>Mobilfunkdienst lesen</item>
+        <item>Falsche Standorte</item>
+        <item>Externen Speicher lesen</item>
+        <item>Externen Speicher schreiben</item>
+        <item>Bildschirm einschalten</item>
+        <item>Zugriff auf Kontodaten</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_cleansetting_autoclean_array">
+        <item>Bei mehr als 20MB</item>
+        <item>Bei mehr als 50MB</item>
+        <item>Bei mehr als 100MB</item>
+        <item>Autom. Reinigung ausschalten</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_tab_array">
+        <item>Cache</item>
+        <item>Große Dateien</item>
+        <item>Alte Dateien</item>
+        <item>Foto</item>
+        <item>Audio</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_openfile_array">
+        <item>Text</item>
+        <item>Audio</item>
+        <item>Video</item>
+        <item>Photo</item>
+    </string-array>
+    <string-array name="cleanmgr_fm_deepclean_compositor_array">
+        <item>Nach Name sortieren</item>
+        <item>Nach Größe sortieren</item>
+        <item>Nach Datum sortieren</item>
+    </string-array>
+</resources>

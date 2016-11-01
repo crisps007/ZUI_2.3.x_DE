@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_text">
+        <item quantity="other">%1$d Benachrichtigungen</item>
+        <item quantity="one">%1$d Benachrichtigung</item>
+    </plurals>
+	<plurals name="kg_password_wrong_pin_code">
+		<item quantity="other">Falscher SIM-PIN-Code, Sie haben noch %d verbleibende Versuche.</item>
+		<item quantity="one">Falscher SIM-PIN-Code, Sie haben noch %d Versuch, bevor das Gerät vom Netzbetreiber entsperrt werden muss.</item>
+	</plurals>
+	<plurals name="kg_password_wrong_puk_code">
+		<item quantity="other">Falscher SIM-PUK-Code, Sie haben %d Versuche übrig, bevor die SIM-Karte dauerhaft gesperrt wird.</item>
+		<item quantity="one">Falscher SIM-PUK-Code, Sie haben %d Versuch übrig, bevor die SIM-Karte dauerhaft gesperrt wird.</item>
+	</plurals>
+	<plurals name="kg_password_default_pin_message">
+		<item quantity="other"> Eingabe SIM-PIN haben Sie %d verbleibenden Versuche.</item>
+		<item quantity="one"> Eingabe SIM-PIN haben Sie %d Versuch bleiben, bevor Sie Ihren Netzbetreiber, um Ihr Gerät zu entsperren wenden müssen.</item>
+	</plurals>
+	<plurals name="kg_password_default_puk_message">
+		<item quantity="other"> SIM ist jetzt deaktiviert. PUK-Code eingeben um fortzufahren. Sie haben %d Versuche übrig, bevor die SIM-Karte dauerhaft gesperrt wird. Kontaktieren Sie den Netzbetreiber für weitere Details.</item>
+		<item quantity="one"> SIM ist jetzt deaktiviert. PUK-Code eingeben um fortzufahren. Sie haben %d Versuch übrig, bevor die SIM-Karte dauerhaft gesperrt wird. Kontaktieren Sie den Netzbetreiber für weitere Details</item>
+	</plurals>
+	<plurals name="kg_password_default_pin_message_bottom">
+		<item quantity="other">"Sie haben %d Versuche übrig"</item>
+		<item quantity="one"> "Sie haben %d Versuch übrig. Sollten Sie dennoch den falschen Code eingeben, muss das Gerät vom Netzbetreiber entsperrt werden."</item>
+	</plurals>
+	<plurals name="kg_password_wrong_pin_code_bottom">
+		<item quantity="other"> "Sie haben noch %d Versuche übrig."</item>
+		<item quantity="one"> "Sie haben noch %d Versuch übrig. Sollten Sie dennoch den falschen Code eingeben, muss das Gerät vom Netzbetreiber entsperrt werden."</item>
+	</plurals>
+	<plurals name="kg_password_default_puk_message_bottom">
+		<item quantity="other"> Sie haben %d Versuche übrig um den richtigen Code einzugeben. Sollten Sie dennoch den falschen Code eingeben, muss das Gerät vom Netzbetreiber entsperrt werden.</item>
+		<item quantity="one"> Sie haben %d Versuch übrig um den richtigen Code einzugeben. Sollten Sie dennoch den falschen Code eingeben, muss das Gerät vom Netzbetreiber entsperrt werden.</item>
+	</plurals>
+	<plurals name="kg_password_wrong_puk_code_bottom">
+		<item quantity="other"> Sie haben %d Versuche übrig um den richtigen Code einzugeben. Andernfalls wird Ihre SIM mit der PUK gesperrt.</item>
+		<item quantity="one"> Sie haben %d Versuch übrig um den richtigen Code einzugeben. Andernfalls wird Ihre SIM mit der PUK gesperrt.</item>
+	</plurals>
+	<plurals name="status_bar_accessibility_recent_apps">
+		<item quantity="other"> %d Übersichtsbilder</item>
+		<item quantity="one"> 1 Übersichtsbild</item>
+	</plurals>
+</resources>

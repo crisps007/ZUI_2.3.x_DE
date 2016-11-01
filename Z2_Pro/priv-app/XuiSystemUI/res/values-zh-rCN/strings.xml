@@ -161,6 +161,9 @@
     <string name="widget_text_weixin_scanner">微信扫一扫</string>
     <string name="widget_text_weixin_circle">微信朋友圈</string>
     <string name="widget_text_addshortcut">添加快捷方式</string>
+    <string name="widget_text_protectedeyesmode">护眼</string>
+    <string name="widget_text_calculator">计算器</string>
+    <string name="widget_text_litvideo">微信小视频</string>
     <string name="control_center_prompt_airplane_on">飞行模式已打开，移动数据不可用</string>
     <string name="control_center_prompt_simcard_out">未插入SIM卡，移动数据不可用</string>
     <string name="control_center_prompt_mute_vibrate_on">静音时，振动已开启</string>
@@ -172,8 +175,10 @@
     <string name="control_center_prompt_vpn_nonetwork">目前没有网络连接，请稍后重试</string>
     <string name="control_center_prompt_camera_userd">请关闭相机应用后重试</string>
     <string name="control_center_prompt_weixin_notinstalled">没有安装微信应用，请安装后重试</string>
-    <string name="custom_switch_position_reorder">开关排序</string>
-    <string name="custom_switch_position_title">快捷开关面板</string>
+    <string name="control_center_prompt_litvideo_notinstalled">没有安装微信应用，请安装后重试</string>
+    <string name="control_center_prompt_calculator_notinstalled">没有安装计算器，请安装后重试</string>
+    <string name="custom_switch_position_reorder">快捷面板排序</string>
+    <string name="custom_switch_position_title">快捷面板</string>
     <string name="custom_switch_position_description">长按拖动进行排序</string>
     <string name="custom_switch_position_description2">第一屏</string>
     <string name="custom_switch_position_description3">第二屏</string>
@@ -181,8 +186,13 @@
     <string name="control_center_more_settings_tip">松开进入设置页面</string>
     <string name="control_center_settings_lockscreen_title">在锁屏中打开</string>
     <string name="control_center_settings_application_title">在应用内打开</string>
-    <string name="control_center_settings_application_summary">关闭后，您仍可在桌面打开 “快捷开关面板”。</string>
-    <string name="control_center_settings_guideline">从屏幕底部向上滑动呼出“快捷开关面板”。</string>
+    <string name="control_center_settings_application_summary">允许在锁屏和应用内访问“快捷面板”，关闭后，您仍可在桌面打开 “快捷面板”。</string>
+    <string name="control_center_settings_guideline">从屏幕底部向上滑动呼出“快捷面板”</string>
+    <string name="controlcenter_mmchat_switcher_text">返回阅读:  </string>
+    <string name="controlcenter_mmchat_switcher_dialog_title">关闭微信文章浮窗</string>
+    <string name="controlcenter_mmchat_switcher_dialog_message">此浮窗可方便您跳回到刚刚阅读的微信文章。如选择“不再显示”，您也可在“系统设置——高级设置——实验室”中重新打开。</string>
+    <string name="controlcenter_mmchat_switcher_dialog_button_ok">不再显示</string>
+    <string name="controlcenter_mmchat_switcher_dialog_button_cancel">本次关闭</string>
     <string name="China_Mobile">中国移动</string>
     <string name="China_Unicom">中国联通</string>
     <string name="China_Telecom">中国电信</string>
@@ -247,6 +257,8 @@
     <string name="lockscreen_permanent_disabled_sim_message_short">SIM卡无法使用</string>
     <string name="lockscreen_sim_puk_locked_message">SIM卡已锁定</string>
     <string name="lockscreen_sim_locked_message">SIM卡已锁定</string>
+    <string name="lockscreen_sim_emergency_only">仅限紧急呼叫</string>
+    <string name="lockscreen_sim_emergency">只能拨打紧急呼救电话</string>
     <string name="cmcc_name">中国移动</string>
     <string name="cu_name">中国联通</string>
     <string name="ct_name">中国电信</string>
@@ -256,6 +268,8 @@
     <string name="Suning_name">苏宁互联</string>
     <string name="Gome_name">极信通信</string>
     <string name="lock_app_icon_toast">下拉应用即可快速锁定/解锁</string>
+    <string name="onekey_force_clear_toast">"已加锁及正在使用应用不会被清理，
+长按扫帚可强制清理。"</string>
     <string name="enable_notification">接收</string>
     <string name="disable_notification">拒绝</string>
     <string name="enable_notification_hints">是否接收推送通知</string>
@@ -264,6 +278,19 @@
     <string name="keyword_6">[微信]</string>
     <string name="service_name">微信红包助手</string>
     <string name="recent_task_simsettings">移动网络</string>
+    <string name="recent_task_label_wechat_article">微信（文章）</string>
+    <string name="air_date">航班日期</string>
+    <string name="air_time">登机时间</string>
+    <string name="air_no">航班号</string>
+    <string name="air_seat_no">座位号</string>
+    <string name="air_passenger">乘机人</string>
+    <string name="air_gate_no">登机口</string>
+    <string name="car_driver">司机</string>
+    <string name="car_no">车牌号</string>
+    <string name="car_phone">联系方式</string>
+    <string name="car_type">车型</string>
+    <string name="car_reminder">出行提醒</string>
+    <string name="car_default_reminder">已经到达</string>
     <string name="widget_text_notification_setting">通知中心设置</string>
     <string name="lenovo_custom_switch_brightness_title">显示亮度调节控制条</string>
     <string name="app_label">系统界面</string>
@@ -316,7 +343,7 @@
     <string name="screenshot_saved_title">已抓取屏幕截图</string>
     <string name="screenshot_saved_text">触摸可查看您的屏幕截图</string>
     <string name="screenshot_failed_title">无法抓取屏幕截图</string>
-    <string name="screenshot_failed_text">无法进行屏幕截图，存储空间不足或不允许执行此操作</string>
+    <string name="screenshot_failed_text">存储空间不足或不允许执行此操作</string>
     <string name="screenshot_cropping_title">正在裁剪屏幕截图...</string>
     <string name="screenshot_cropping_text">正在裁剪屏幕截图</string>
     <string name="usb_preference_title">USB文件传输选项</string>

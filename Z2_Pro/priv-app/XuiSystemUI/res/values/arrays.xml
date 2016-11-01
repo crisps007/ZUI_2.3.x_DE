@@ -46,6 +46,7 @@
         <item>46013</item>
         <item>45502</item>
         <item>45507</item>
+        <item>CHN-CT</item>
         <item>Searching for Service</item>
     </string-array>
     <string-array name="locale_carrier_names">
@@ -70,6 +71,7 @@
         <item>China_Unicom</item>
         <item>China_Unicom</item>
         <item>China_Unicom</item>
+        <item>China_Telecom</item>
         <item>China_Telecom</item>
         <item>China_Telecom</item>
         <item>China_Telecom</item>
@@ -119,6 +121,7 @@
         <item>com.zui.net.data.monitor</item>
         <item>com.zui.sdac</item>
         <item>com.zui.zhealthy</item>
+        <item>com.zui.usercenter</item>
     </string-array>
     <integer-array name="batterymeter_bolt_points">
         <item>73</item>
@@ -1006,6 +1009,9 @@
         <item>SwitchWeiXinScanner</item>
         <item>SwitchWeiXinCircle</item>
         <item>SwitchAddDesktopShortcut</item>
+        <item>SwitchProtectEyes</item>
+        <item>SwitchLitVideo</item>
+        <item>SwitchCalculator</item>
     </string-array>
     <string-array name="default_quick_switch">
         <item>SwitchWlan</item>

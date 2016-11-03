@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">Alles löschen</string>
+    <string name="notifications_off_title">Benachrichtigungsfunktion deaktiviert</string>
+    <string name="notifications_off_text">Hier antippen, um die Benachrichtigungsfunktion wieder zu aktivieren.</string>
+</resources>

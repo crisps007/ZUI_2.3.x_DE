@@ -224,7 +224,7 @@
     <string name="music_type_app_clean_notify_message">Entferne %s, abspielen von Musik kann nach Optimierung stoppen, Reservierung wird empfohlen.</string>
     <string name="clock_type_app_clean_notify_message">Entferne %s, Wecker klingelt evtl. nicht, Reservierung wird empfohlen.</string>
     <string name="calendar_type_app_clean_notify_message">Entferne %s, Terminbenachrichtigungen können entfallen, Reservierung wird empfohlen.</string>
-    <string name="zui_usercenter_type_app_clean_notify_message">移除%s，成长值可能无法正常获得，建议保留。</string>
+    <string name="zui_usercenter_type_app_clean_notify_message">If remove %s, your growth may not be calculated accurately, recommend to reserve.</string>
     <string name="zui_zhealthy_type_app_clean_notify_message">Wenn Sie %s entfernen，werden Ihre Schritte möglicherweise nicht richtig aufgezeichnet.</string>
     <string name="dialog_continue">Beibehalten</string>
     <string name="fm_memory_clean_title">RAM bereinigen</string>
@@ -247,9 +247,9 @@
     <string name="fm_setting_item_smart_meory_clean_desc_text">Automatische RAM Bereinigung, je nach Speichernutzung.</string>
     <string name="fm_operation_log_smart_clean_result_text">Autom. %1$s RAM bereinigt, Standby Zeit um etwa %2$s Minuten verlängert.</string>
     <string name="fm_memory_status_clean_text">Keine Bereinigung notwendig</string>
-    <string name="fm_setting_item_smart_app_pausing_text">App übertakten</string>
-    <string name="fm_setting_item_smart_app_pausing_description_text">开启后，自动暂停运行后台闲置的应用和服务，暂停运行后能省电省流量，并且释放系统资源，从而保证运行其他应用更快速流畅。</string>
-    <string name="fm_setting_item_smart_app_pausing_sub_settings_text">应用超速设置</string>
+    <string name="fm_setting_item_smart_app_pausing_text">App Management</string>
+    <string name="fm_setting_item_smart_app_pausing_description_text">Diese Option pausiert alle Hintergrund-Apps und Dienste die sich im Leerlauf befinden, um den Akku zu sparen, den Datenverbrauch zu reduzieren und Systemressourcen freizugeben. Dies kann bewirken, das andere Apps schneller und flüssiger ausgeführt werden. </string>
+    <string name="fm_setting_item_smart_app_pausing_sub_settings_text">App Management-Einstellung</string>
     <string name="autorun_stuburn_app_title">Dauerhafte Autostart Apps</string>
     <string name="autorun_normal_app_title">Autostart Apps</string>
     <string name="autorun_slient_start_app_title">Fremdgestartete Autostart Apps</string>
@@ -269,8 +269,8 @@
     <string name="autorun_slient_start_title">In Verbindung stehende Apps können von anderen Apps automatisch gestartet werden. Es kann nicht nur den Akku-&amp; Datenverbrauch, sondern auch den RAM-Speicher belegen und evtl. das Telefon verlangsamen. Nach Deaktivierung des Autostarts, können diese Apps nicht mehr von anderen Apps gestartet werden.</string>
     <string name="autorun_clock_waring_prompt">Wenn die Uhr aus der Whitelist entfernt wird, kann die Uhr nach RAM-Bereinigung nicht mehr ordnungsgemäß ausgeführt werden. Ihre Termine und Weckzeiten können entfallen. Trotzdem entfernen?</string>
     <string name="autorun_calendar_waring_prompt">Wenn der Kalender aus der Whitelist entfernt wird, kann der Kalender nach RAM-Bereinigung nicht mehr ordnungsgemäß ausgeführt werden. Trotzdem entfernen?</string>
-    <string name="autorun_uhealthy_waring_prompt">将U健康移除保护名单，加速内存后桌面负一屏将无法正常使用，且无法准确记录您的步数，确定移除这项吗？</string>
-    <string name="autorun_ucenter_warning_prompt">将用户中心移除保护名单，加速内存后将无法正常获得成长值，确定移除这项吗？</string>
+    <string name="autorun_uhealthy_waring_prompt">Wenn U-Health aus der Whitelist entfernt wird, können die U-Health Widgets und der Schrittzähler nach RAM-Bereinigung nicht mehr ordnungsgemäß ausgeführt werden. Trotzdem entfernen?</string>
+    <string name="autorun_ucenter_warning_prompt">If the User Center is removed from the whitelist, your growth may not be calculated accurately after your phone’s memory is accelerated. Remove this item?</string>
     <string name="autorun_tip">Alle Fremdstarts deaktivieren</string>
     <string name="autorun_slient_start_close_all_prompt">In Verbindung stehende Apps werden nicht mehr von anderen Apps automatisch gestartet.</string>
     <string name="autorun_remove">Entfernen</string>

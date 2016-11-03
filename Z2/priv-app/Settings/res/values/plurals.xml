@@ -56,6 +56,10 @@
         <item quantity="other">%1$d apps used memory in the last %2$s</item>
         <item quantity="one">1 app used memory in the last %2$s</item>
     </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d additional permissions</item>
+        <item quantity="one">%d additional permission</item>
+    </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
         <item quantity="other">%1$d fingerprints set up</item>
         <item quantity="one">%1$d fingerprint set up</item>

@@ -149,6 +149,7 @@
     <string name="fp_enrol_done_title">Done</string>
     <string name="fp_enrol_done_desc">Use your fingerprint instead of passcode to unlock your phone</string>
     <string name="choose_fp_alternative_password">Set a passcode in case fingerprint is unable to use</string>
+    <string name="set_password_before_fp_enroll">Please set a passcode before adding a fingerprint</string>
     <string name="fingerprint_category_title">Fingerprint</string>
     <string name="fingerprint_locksreen_password">Lock Screen</string>
     <string name="fingerprint_need_password">Need Passcode</string>
@@ -175,6 +176,13 @@
     <string name="fp_name_editor_hint">Name is required</string>
     <string name="fingerprint_detail_modify_name_dialog_change">Rename</string>
     <string name="fingerprint_detail_modify_name_dialog_cancel">Cancel</string>
+    <string name="fap_detail_name_tooltip">Please rename the fingerprints to make them respective, e.g. “Right thumb”</string>
+    <string name="fap_detail_smartfp_tooltip">When phone is locked, use this fingerprint to</string>
+    <string name="fap_detail_smartfp_none">Unlock the phone</string>
+    <string name="fap_detail_smartfp_alipay_qrcode">Unlock and show Alipay QR code</string>
+    <string name="fap_detail_smartfp_wx_qrcode_scaner">Unlock and open Wechat Scan QR Code</string>
+    <string name="fap_detail_smartfp_open_app">Unlock and open an app</string>
+    <string name="fap_detail_smartfp_open_app_none">None</string>
     <string name="finger_print_password_title">Fingerprint &amp; Passcode</string>
     <string name="default_name_finger_prefix">Fingerprint</string>
     <string name="OK">OK</string>
@@ -183,6 +191,7 @@
     <string name="CANCEL">Cancel</string>
     <string name="choose_lock_password_fp_tooltip">Set a passcode in case fingerprint is unable to use</string>
     <string name="other_password_mode">Passcode Type</string>
+    <string name="chooselock_generic_locked_by_high_quality">High security level apps like enterprise mail or device manager demand special password like complicated password, you can sign out or uninstall it to change the password type</string>
     <string name="lockpattern_Introduction_header">Draw an unlock pattern, at least %d points</string>
     <string name="lockpattern_ChoiceTooShort_header">Draw at least %d points, please try again</string>
     <string name="lockpattern_NeedToConfirm_header">Draw pattern again to confirm</string>
@@ -2847,6 +2856,7 @@ Any user can update apps for all other users."</string>
     <string name="screen_locking_sounds_title">Screen locking sounds</string>
     <string name="docking_sounds_title">Docking sounds</string>
     <string name="touch_sounds_title">Touch Sounds</string>
+    <string name="charging_sounds_title">Charge Sounds</string>
     <string name="vibrate_on_touch_title">Vibrate On Touch</string>
     <string name="dock_audio_media_title">Dock Speaker Plays</string>
     <string name="dock_audio_media_disabled">All Audio</string>
@@ -2960,10 +2970,10 @@ This helps protect data on lost or stolen devices."</string>
     <string name="normal_date_format">Regional (%s)</string>
     <string name="u_touch">U-Touch</string>
     <string name="toggle_recent_app_title">Slide left or right to switch applications of history</string>
-    <string name="vibrate_touch_title">Vibrate when touch</string>
+    <string name="vibrate_touch_title">Vibrate On Touch</string>
     <string name="toggle_recent_app_des">Slide left to switch to last used application or earlier,vice versa,slide right to switch back</string>
-    <string name="u_guide_content_title">U-Touch is the name of these functions on the home button: fingerprint identification,touch to back,press to home,double press to view application history and slide left or right to switch applications of history.</string>
-    <string name="long_pressed_back_home">Long touch to Home screen</string>
+    <string name="u_guide_content_title">U-Touch is the name of these functions on the Home button: fingerprint identification, touch to Back, press to Home, double press to view Application History and slide left or right to switch applications of history.</string>
+    <string name="long_pressed_back_home">Long Touch to Home Screen</string>
     <string name="proxy_settings_title">HTTP Proxy</string>
     <string name="proxy_port_label">Port</string>
     <string name="proxy_exclusionlist_label">Bypass Proxy for</string>
@@ -2995,10 +3005,14 @@ This helps protect data on lost or stolen devices."</string>
     <string name="wifi_display_calling_accept">Show Incoming Call</string>
     <string name="wifi_display_calling_reject">Automatic Hang up</string>
     <string name="wifi_display_calling_pause">Pause Wireless Display</string>
+    <string name="app_permissions">App permissions</string>
     <string name="wifi_display_message">Incoming Messages</string>
     <string name="wifi_display_message_accept">Show Notification</string>
     <string name="wifi_display_message_reject">Block Notification</string>
     <string name="wifi_notify_open_networks">Wi-Fi Notification</string>
+    <string name="domain_urls_summary_none">Don’t open supported links</string>
+    <string name="domain_urls_summary_one">Open %s</string>
+    <string name="domain_urls_summary_some">Open %s and related URLs</string>
     <string name="wifi_wps_summary">Make sure the router supports and has enabled WPS</string>
     <string name="wifi_notify_open_networks_summary">Notify whenever a public network is available</string>
     <string name="wifi_scan_always_available_summary">Let location service and other apps scan for networks, even when Wi-Fi is off</string>
@@ -3007,6 +3021,9 @@ This helps protect data on lost or stolen devices."</string>
     <string name="wifi_menu_p2p">Wi-Fi Direct</string>
     <string name="wifi_ssid">SSID</string>
     <string name="wifi_status">Status</string>
+    <string name="app_link_open_always">Open in this app</string>
+    <string name="app_link_open_ask">Ask every time</string>
+    <string name="app_link_open_never">Don’t open in this app</string>
     <string name="wifi_ipaddr">IP Address</string>
     <string name="wifi_forget_network">Forget Network</string>
     <string name="wifi_connect_network">Join Network</string>
@@ -3083,28 +3100,31 @@ This helps protect data on lost or stolen devices."</string>
     <string name="zen_repead_title">repead</string>
     <string name="zen_calls_mode">Allow these callers</string>
     <string name="zen_rule_default_name_sub">%1$s - %2$s</string>
-    <string name="utouch_custom">Home button customization</string>
-    <string name="utouch_custom_press_two">Press Home twice</string>
-    <string name="utouch_custom_left_right">Slide left or right</string>
-    <string name="utouch_custom_long_press">Long press Home</string>
-    <string name="utouch_custom_long_light_press">Long touch Home</string>
+    <string name="utouch_custom">Home Button Customization</string>
+    <string name="utouch_custom_press_two">Press Home Twice</string>
+    <string name="utouch_custom_left_right">Slide Left or Right</string>
+    <string name="utouch_custom_long_press">Long Press Home</string>
+    <string name="utouch_custom_long_light_press">Long Touch Home</string>
     <string name="utouch_unuse">None</string>
-    <string name="utouch_app_history">Apps history</string>
+    <string name="utouch_app_history">Apps History</string>
     <string name="utouch_off_screen">Sleep</string>
-    <string name="utouch_down_notification">Notification center</string>
-    <string name="utouch_open_app">Open an app</string>
+    <string name="utouch_down_notification">Notification Center</string>
+    <string name="utouch_open_app">Open an App</string>
     <string name="utouch_switch_app_history">Switch apps in history</string>
-    <string name="utouch_open_specific_app">Open an app</string>
-    <string name="utouch_back_home">Home screen</string>
-    <string name="utouch_left_slide">Slide left</string>
-    <string name="utouch_right_slide">Slide right</string>
+    <string name="utouch_open_specific_app">Open an App</string>
+    <string name="utouch_back_home">Home Screen</string>
+    <string name="system_alert_window_summary" formatted="false">%d of %d apps allowed to draw on top of other apps</string>
+    <string name="utouch_left_slide">Slide Left</string>
+    <string name="utouch_right_slide">Slide Right</string>
     <string name="utouch_restore_default">Default Settings</string>
     <string name="utouch_toast_category">Customization works when phone is unlocked</string>
+    <string name="utouch_app_recent">Recents</string>
     <string name="security_patch">Android security patch level</string>
     <string name="multi_card_management">Cellular Networks &amp; SIM</string>
     <string name="auto_brightness_title_category">When adaptive brightness is on, you can still adjust it manully</string>
     <string name="reset_network_desc">This will reset all network settings, including:WLAN, Cellular data, Bluetooth, This action can not be undone.</string>
     <string name="reset_network">Network settings reset</string>
+    <string name="reset_network_toast">Network settings reset</string>
     <string name="reset_network_complete_toast">Network settings have been reset</string>
     <string name="typeface_settings_title">Font</string>
     <string name="sunshine_mode">Brightness Enhancement</string>
@@ -3130,7 +3150,7 @@ This helps protect data on lost or stolen devices."</string>
     <string name="share_scanner_title">Scan QR Code</string>
     <string name="share_no_wifi">Not currently connected WiFi</string>
     <string name="lenovo_title">Lenovo</string>
-    <string name="screen_back_home">On-screen Back、Home、Recent</string>
+    <string name="screen_back_home">On-screen Back, Home, Recent</string>
     <string name="screen_back_home_category">After Opening，Please reboot the phone has been in force</string>
     <string name="sunshine_category_summary">The brightness will be enhanced automatically in the strong sunlight</string>
     <string name="sunshine_disable_category_summary">Brightness enhancement is disabled when adaptive brightness is off</string>
@@ -3142,6 +3162,240 @@ This helps protect data on lost or stolen devices."</string>
     <string name="wifi_share_qcode_text">WLAN QR code placed in the identification box, you can automatically scan</string>
     <string name="wifi_share_qcode_button">Connect</string>
     <string name="wifi_share_qcode_title">Connect WLAN</string>
+    <string name="overclock_mode_message">极速超频在提升CPU速度的同时，可能导致发热或手机运行不稳定，请不要长时间使用。</string>
+    <string name="mock_location_app">Select mock location app</string>
+    <string name="mock_location_app_not_set">No mock location app set</string>
+    <string name="mock_location_app_set">Mock location app: %1$s</string>
+    <string name="done">Done</string>
+    <string name="storage_wizard_ready_internal_body">"Your new ^1 is working.
+
+To move photos, files, and app data to this device, go to Settings > Storage."</string>
+    <string name="storage_wizard_move_confirm_title">Move ^1</string>
+    <string name="storage_wizard_move_confirm_body">"Moving ^1 and its data to ^2 will take only a few moments. You won’t be able to use the app until the move is complete. 
+
+Don’t remove the ^2 during the move."</string>
+    <string name="storage_wizard_move_progress_title">Moving ^1…</string>
+    <string name="storage_wizard_move_progress_body">"Don’t remove the ^1 during the move. 
+
+The ^2 app on this device won’t be available until the move is complete."</string>
+    <string name="storage_wizard_move_progress_cancel">Cancel move</string>
+    <string name="storage_wizard_slow_body">"This ^1 appears to be slow. 
+
+You can continue, but apps moved to this location may stutter and data transfers may take a long time. 
+
+Consider using a faster ^1 for better performance."</string>
+    <string name="storage_wizard_ready_external_body">Your ^1 is all set to use with photos and other media.</string>
+    <string name="storage_wizard_ready_title">^1 is ready</string>
+    <string name="storage_wizard_migrate_confirm_next">Move</string>
+    <string name="storage_wizard_migrate_progress_title">Moving data…</string>
+    <string name="storage_wizard_migrate_details">"During the move: 
+• Don’t remove the ^1. 
+• Some apps won’t work correctly. 
+• Keep the device charged."</string>
+    <string name="storage_wizard_migrate_body">"You can move your photos, files, and some apps to this new ^1. 
+
+The move takes about ^2 and will free ^3 on internal storage. Some apps won’t work while it’s underway."</string>
+    <string name="storage_wizard_migrate_now">Move now</string>
+    <string name="storage_wizard_migrate_later">Move later</string>
+    <string name="storage_wizard_migrate_confirm_title">Move data now</string>
+    <string name="storage_internal_title">Device storage</string>
+    <string name="storage_external_title">Portable storage</string>
+    <string name="storage_volume_summary">%1$s used of %2$s</string>
+    <string name="storage_volume_used">Used of %1$s</string>
+    <string name="storage_volume_used_total">Total used of %1$s</string>
+    <string name="storage_mount_success">%1$s is mounted</string>
+    <string name="storage_mount_failure">Couldn’t mount %1$s</string>
+    <string name="storage_unmount_success">%1$s is safely ejected</string>
+    <string name="storage_unmount_failure">Couldn’t safely eject %1$s</string>
+    <string name="storage_format_success">%1$s is formatted</string>
+    <string name="storage_format_failure">Couldn’t format %1$s</string>
+    <string name="storage_rename_title">Rename storage</string>
+    <string name="storage_dialog_unmounted">"This ^1 is safely ejected, but still available. 
+
+To use this ^1, you have to mount it first."</string>
+    <string name="storage_dialog_unmountable">"This ^1 is corrupted. 
+
+To use this ^1, you have to set it up first."</string>
+    <string name="storage_dialog_unsupported">"This device doesn’t support this ^1. 
+
+To use this ^1 with this device, you have to set it up first."</string>
+    <string name="storage_internal_format_details">"After formatting, you can use this ^1 in other devices. 
+
+All data on this ^1 will be erased. Consider backing up first. 
+
+"<b>Back up photos &amp; other media</b>" 
+Move your media files to alternative storage on this device, or transfer them to a computer using a USB cable. 
+
+"<b>Back up apps</b>" 
+All apps stored on this ^1 will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device."</string>
+    <string name="storage_wizard_migrate_title">Move data to new storage</string>
+    <string name="storage_wizard_migrate_confirm_body"><b>The move takes about ^1. It will free ^2 on ^3.</b></string>
+    <string name="storage_detail_apps">Apps</string>
+    <string name="storage_detail_images">Images</string>
+    <string name="storage_detail_videos">Videos</string>
+    <string name="storage_detail_audio">Audio</string>
+    <string name="storage_detail_cached">Cached data</string>
+    <string name="storage_detail_other">Other</string>
+    <string name="storage_detail_explore">Explore ^1</string>
+    <string name="storage_detail_dialog_other">"Other includes shared files saved by apps, files downloaded from the Internet or Bluetooth, Android files, and so on. 
+
+To see the entire contents of this ^1, touch Explore."</string>
+    <string name="storage_detail_dialog_user">"^1 may have saved photos, music, movies, apps, or other data that is taking up ^2 of storage. 
+
+To view details, switch to ^1."</string>
+    <string name="storage_wizard_init_title">Set up your ^1</string>
+    <string name="storage_wizard_format_confirm_next">Erase &amp; format</string>
+    <string name="storage_wizard_format_progress_title">Formatting ^1…</string>
+    <string name="storage_wizard_format_progress_body">Don’t remove the ^1 while it’s formatting.</string>
+    <string name="storage_wizard_format_confirm_public_title">Format as portable storage</string>
+    <string name="storage_wizard_format_confirm_public_body">"This requires the ^1 to be formatted. 
+
+"<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
+    <string name="storage_wizard_init_external_title">Use as portable storage</string>
+    <string name="storage_wizard_init_external_summary">For moving photos and other media between devices.</string>
+    <string name="storage_wizard_init_internal_title">Use as internal storage</string>
+    <string name="storage_wizard_init_internal_summary">For storing anything on this device only, including apps and photos. Requires formatting that prevents it from working with other devices.</string>
+    <string name="storage_wizard_format_confirm_title">Format as internal storage</string>
+    <string name="storage_wizard_format_confirm_body">"This requires the ^1 to be formatted to make it secure. 
+
+After formatting, this ^1 will only work in this device. 
+
+"<b>Formatting erases all data currently stored on the ^1.</b>" To avoid losing the data, consider backing it up. "</string>
+    <string name="storage_menu_rename">Rename</string>
+    <string name="storage_menu_mount">Mount</string>
+    <string name="storage_menu_unmount">Eject</string>
+    <string name="storage_menu_format">Format</string>
+    <string name="storage_menu_format_public">Format as portable</string>
+    <string name="storage_menu_format_private">Format as internal</string>
+    <string name="storage_menu_migrate">Migrate data</string>
+    <string name="storage_menu_forget">Forget</string>
+    <string name="storage_menu_set_up">Set up</string>
+    <string name="storage_menu_explore">Explore</string>
+    <string name="storage_internal_unmount_details"><b>When you eject this ^1, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.</b>" 
+
+This ^1 is formatted to work on this device only. It won’t work on any others."</string>
+    <string name="apps_storage">Apps storage</string>
+    <string name="storage_internal_forget_confirm_title">Forget ^1?</string>
+    <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this ^1 will be lost forever.</string>
+    <string name="storage_internal_forget_details">"To use the apps, photos, or data this ^1 contains, reinsert it. 
+
+Alternatively, you can choose to forget this storage if the device isn’t available. 
+
+If you choose to forget, all the data the device contains will be lost forever. 
+
+You can reinstall the apps later, but their data stored on this device will be lost."</string>
+    <string name="help_uri_storage" />
+    <string name="shenqi_serve_number_in">1800–3000–7678</string>
+    <string name="help_uri_apps" />
+    <string name="help_uri_notifications" />
+    <string name="high_power_off">Optimizing battery use</string>
+    <string name="high_power_filter_on">Not optimized</string>
+    <string name="high_power_system">Battery optimization not available</string>
+    <string name="write_settings_on">Yes</string>
+    <string name="write_settings_off">No</string>
+    <string name="write_settings_preference">App modify system settings permission</string>
+    <string name="permit_write_settings">Allow modify system settings</string>
+    <string name="write_settings_description">This permission allows an app to modify system settings.</string>
+    <string name="write_settings">Modify system settings</string>
+    <string name="work_profile_usage_access_warning">Turning off usage access for this app doesn’t prevent your administrator tracking data usage for apps in your work profile.</string>
+    <string name="app_usage_preference">App usage preferences</string>
+    <string name="usage_access_description">Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.</string>
+    <string name="assistant_security_warning_disagree">Disagree</string>
+    <string name="choose_voice_input_title">Choose voice input</string>
+    <string name="usage_access">Usage access</string>
+    <string name="default_browser_title_none">No default Browser</string>
+    <string name="permit_usage_access">Permit usage access</string>
+    <string name="assistant_security_warning">The assistant will be able to read information about apps in use on your system, including information visible on your screen or accessible within the apps.</string>
+    <string name="assistant_security_warning_agree">Agree</string>
+    <string name="configure_apps">Configure apps</string>
+    <string name="assistant_security_warning_title">Make %s your assistant?</string>
+    <string name="write_settings_title">Can modify system settings</string>
+    <string name="write_system_settings">Modify system settings</string>
+    <string name="overlay_settings">Draw over other apps</string>
+    <string name="system_alert_window_access_title">Draw over other apps</string>
+    <string name="filter_write_settings_apps">Can modify system settings</string>
+    <string name="filter_overlay_apps">Apps with permission</string>
+    <string name="filter_with_domain_urls_apps">With domain URLs</string>
+    <string name="filter_enabled_apps">Enabled</string>
+    <string name="filter_personal_apps">Personal</string>
+    <string name="filter_work_apps">Work</string>
+    <string name="filter_notif_blocked_apps">Blocked</string>
+    <string name="filter_notif_priority_apps">Priority</string>
+    <string name="filter_notif_sensitive_apps">Sensitive content hidden</string>
+    <string name="filter_notif_no_peeking">No peeking</string>
+    <string name="filter_all_apps">All apps</string>
+    <string name="runtime_permissions_summary_no_permissions_granted">No permissions granted</string>
+    <string name="memory_use_summary">%1$s avg memory used in last 3 hours</string>
+    <string name="no_memory_use_summary">No memory used in last 3 hours</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="notifications_enabled">Normal</string>
+    <string name="notifications_disabled">Block</string>
+    <string name="notifications_sensitive">Sensitive content hidden</string>
+    <string name="notifications_priority">Priority</string>
+    <string name="notifications_no_peeking">No peeking</string>
+    <string name="notifications_two_items">%1$s / %2$s</string>
+    <string name="notifications_three_items">%1$s / %2$s / %3$s</string>
+    <string name="runtime_permissions_summary_no_permissions_requested">No permissions requested</string>
+    <string name="app_disable_dlg_positive">Disable app</string>
+    <string name="data_summary_format">%1$s used since %2$s</string>
+    <string name="no_data_usage">No data used</string>
+    <string name="battery_summary">%1$d%% use since last full charge</string>
+    <string name="no_battery_summary">No battery use since last full charge</string>
+    <string name="launch_defaults_some">Some defaults set</string>
+    <string name="launch_defaults_none">No defaults set</string>
+    <string name="system_alert_window_on">Yes</string>
+    <string name="system_alert_window_off">No</string>
+    <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
+    <string name="app_overlay_permission_preference">App draw on top permission</string>
+    <string name="draw_overlay">Draw over other apps</string>
+    <string name="permit_draw_overlay">Permit drawing over other apps</string>
+    <string name="default_assist_none">None</string>
+    <string name="choose_assist_title">Choose Assist app</string>
+    <string name="storage_summary_format">%1$s used in %2$s</string>
+    <string name="storage_type_internal">internal memory</string>
+    <string name="change_storage">Change storage</string>
+    <string name="change">Change</string>
+    <string name="write_settings_summary" formatted="false">%d of %d apps allowed to modify system settings</string>
+    <string name="app_permissions_summary" formatted="false">%d of %d apps allowed additional access</string>
+    <string name="storage_type_external">external memory</string>
+    <string name="data_usage_cellular_data_summary">Paused at limit</string>
+    <string name="keywords_app_permissions">apps permissions security</string>
+    <string name="domain_urls_title">App links</string>
+    <string name="default_apps_title">Default Apps</string>
+    <string name="keywords_default_apps">apps default</string>
+    <string name="advanced_apps">Advanced</string>
+    <string name="system_alert_window_settings">Draw over other apps</string>
+    <string name="keywords_system_alert_window">system alert window dialog draw on top other apps</string>
+    <string name="keywords_write_settings">write modify system settings</string>
+    <string name="keywords_ignore_optimizations">ignore optimizations doze app standby</string>
+    <string name="assist_and_voice_input_title">Assist &amp; voice input</string>
+    <string name="storage_used">Storage used</string>
+    <string name="default_browser_title">Browser app</string>
+    <string name="default_phone_title">Phone app</string>
+    <string name="keywords_default_phone_app">phone dialer default</string>
+    <string name="default_emergency_app">Emergency app</string>
+    <string name="keywords_emergency_app">emergency ice app default</string>
+    <string name="launch_by_default">Open by default</string>
+    <string name="memory_settings_title">Memory</string>
+    <string name="app_launch_domain_links_title">App links</string>
+    <string name="app_launch_open_domain_urls_title">Open supported links</string>
+    <string name="app_launch_open_domain_urls_summary">Open without asking</string>
+    <string name="app_launch_supported_domain_urls_title">Supported links</string>
+    <string name="app_launch_other_defaults_title">Other defaults</string>
+    <string name="default_assist_title">Assist app</string>
+    <string name="assist_access_context_title">Use text from screen</string>
+    <string name="assist_access_context_summary">Allow the assist app to access the screen contents as text</string>
+    <string name="assist_access_screenshot_title">Use screenshot</string>
+    <string name="assist_access_screenshot_summary">Allow the assist app to access an image of the screen</string>
+    <string name="assist_footer">Assist apps can help you based on information from the screen you’re viewing. Some apps support both launcher and voice input services to give you integrated assistance.</string>
+    <string name="menu_hide_system">Hide system</string>
+    <string name="lab_features_title">Lab features</string>
+    <string name="wechat_cutover_title">Wechat message/article page switch</string>
+    <string name="wechat_cutover_title_category">It solves the problem of not being able to go back to a reading article before replying a Wechat message.</string>
+    <string name="position_travel">Position Travel</string>
+    <string name="mobile_data_always_on">Cellular data always active</string>
+    <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi‑Fi is active (for fast network switching).</string>
+    <string name="zen_modile_dialog_title">Alarm will be mute when you continue to enable it</string>
     <string name="unlock_disable_frp_warning_title">Remove device protection?</string>
     <string name="unlock_disable_frp_warning_content_pattern">Device protection features will not work without your pattern.</string>
     <string name="unlock_disable_frp_warning_content_pattern_fingerprint">"Device protection features will not work without your pattern.
@@ -3262,7 +3516,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
     <string name="show_battery_percent_in_status_bar">Battery Percentage</string>
     <string name="battery_status_bar">Show battery percent in status bar</string>
     <string name="battery_optimization_title">Battery Optimization</string>
-    <string name="battery_optimization_description">Battery optimization can reduce battery consumption by deferring background CPU and network activity for apps when the device is unused for more than one hour</string>
+    <string name="battery_optimization_description">Battery optimization can reduce battery consumption by deferring background CPU and network activity</string>
     <string name="power_usage_description">Show battery usage since the fully charged</string>
     <string name="xui_usages_description">Battery usage since last fully charged</string>
     <string name="battery_ignore_optimizations_on">open</string>
@@ -3281,16 +3535,16 @@ Your saved fingerprints will also be removed from this device and you won't be a
     <string name="overheat_debug_title">debug overheat detection</string>
     <string name="overheat_notify_enable">Notify abnormal power usage</string>
     <string name="overheat_notify_summary">Notify when background apps have abnormal power usage</string>
-    <string name="overheat_notify_title">Abnormal power consumption</string>
-    <string name="overheat_notify_button">Force Stop</string>
-    <string name="overheat_notify_summary_single_app">%1$s consumes power secretly</string>
-    <string name="overheat_notify_summary_multi_apps">%1$s %2$s apps consume power secretly</string>
+    <string name="overheat_notify_title">Abnormal power consume</string>
+    <string name="overheat_notify_button">Stop</string>
+    <string name="overheat_notify_summary_single_app">%1$s consumes power</string>
+    <string name="overheat_notify_summary_multi_apps">%1$s %2$s apps consume power</string>
     <string name="overheat_notify_kill_app">It is force stopped for power consumption secretly</string>
     <string name="overheat_app_summary">high power consumption when background</string>
     <string name="date_time_date_format">Date Format</string>
     <string name="multi_card_management_title">SIM Cards</string>
     <string name="notifications_status_bar_title">Notifications &amp; Statusbar</string>
-    <string name="control_center_title">Quick Switch Panel</string>
+    <string name="control_center_title">Quick Panel</string>
     <string name="display_and_brightness_settings_title">Display &amp; Brightness</string>
     <string name="sound_vibrate_title">Sounds &amp; Vibrate</string>
     <string name="security_privacy_title">Security &amp; Privacy</string>
@@ -3331,7 +3585,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
     <string name="xui_screen_color_title">Color</string>
     <string name="xui_screen_timeout_title">Screen Timeout</string>
     <string name="anti_mistouch_mode_title">Prevent Pocket Dials</string>
-    <string name="xui_double_click_screen_on">Bright Screen by Double Click</string>
+    <string name="xui_double_click_screen_on">Double Tap to Power on Screen</string>
     <string name="xui_screen_color_temperature">Colors</string>
     <string name="xui_screen_color_temperature_warm">Warm</string>
     <string name="xui_screen_color_temperature_normal">Standard</string>
@@ -3391,7 +3645,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
     <string name="account_sync_settings_title">Accounts &amp; Sync</string>
     <string name="power_title">Battery</string>
     <string name="applications_management_settings">Applications</string>
-    <string name="tether_settings_title">Personal Hotspot</string>
+    <string name="tether_settings_title">Tethering &amp; Portablehotspot</string>
     <string name="tether_status_on">On</string>
     <string name="tether_status_off">Off</string>
     <string name="other_account_name_title">Others</string>
@@ -3436,8 +3690,8 @@ Your saved fingerprints will also be removed from this device and you won't be a
     <string name="processor_model_number">CPU</string>
     <string name="rom_memory_number">Internal Memory</string>
     <string name="ram_memory_number">RAM</string>
-    <string name="device_info_processor_model">Qualcomm® MSM8996%1$s %2$sGHz</string>
-    <string name="device_info_processor_model_frist">Qualcomm® MSM8974%1$s %2$sGHz</string>
+    <string name="device_info_processor_model">Qualcomm® Snapdragon™ %1$s %2$sGHz</string>
+    <string name="device_info_processor_model_frist">Qualcomm® Snapdragon™ %1$s %2$sGHz</string>
     <string name="cpu_info_summary" formatted="false">%d Core %sHz</string>
     <string name="rom_info_summary_no_unit">Total: %s</string>
     <string name="rom_info_avail_no_unit">Available: %s</string>

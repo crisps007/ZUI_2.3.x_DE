@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crop_wallpaper">Hintergrund zuschneiden</string>
+    <string name="wallpaper_instructions">Hintergrund auswählen</string>
+    <string name="wallpaper_load_fail">Bild konnte nicht als Hintergrund geladen werden.</string>
+    <string name="move_and_scale">Verschieben und Skalieren</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="choose">Auswählen</string>
+    <string name="set">OK</string>
+    <string name="setting_wallpaer">Hintergrund festlegen</string>
+    <string name="on_loading">Lade Bild…</string>
+    <string name="setting_success">Änderung erfolgreich</string>
+</resources>

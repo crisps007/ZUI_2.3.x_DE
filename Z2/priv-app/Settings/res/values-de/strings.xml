@@ -125,6 +125,7 @@ bei Vibration entfernen und Vorgang wiederholen"</string>
     <string name="fp_enrol_done_title">Fertig</string>
     <string name="fp_enrol_done_desc">Fingerabdruck anstelle von Zahlencode zum Entsperren verwenden</string>
     <string name="choose_fp_alternative_password">Zahlencode einstellen, falls der Fingerabdruck nicht verwendet werden kann</string>
+    <string name="set_password_before_fp_enroll">Bitte zuerst ein Passwort setzen, bevor Sie einen Fingerabdruck hinzufügen</string>
     <string name="fingerprint_category_title">Fingerabdruck</string>
     <string name="fingerprint_locksreen_password">Sperrbildschirm</string>
     <string name="fingerprint_need_password">Passwort erforderlich</string>
@@ -169,6 +170,7 @@ Bitte einen anderen Finger verwenden."</string>
     <string name="CANCEL">Abbrechen</string>
     <string name="choose_lock_password_fp_tooltip">Setze ein Passwort, falls der Fingerabdruck nicht funktioniert</string>
     <string name="other_password_mode">Passwortart</string>
+    <string name="chooselock_generic_locked_by_high_quality">Anwendungen mit hoher Sicherheitsstufe wie Firmen-Mail oder Geräteverwaltung fordern spezielles/kompliziertes Kennwort. Sie können es abmelden oder deinstallieren, um den Kennworttyp zu ändern</string>
     <string name="lockpattern_Introduction_header">Zeichne ein Muster, mindestens %d Punkt</string>
     <string name="lockpattern_ChoiceTooShort_header">Bitte wiederholen. Verbinde mindestens %d Punkte</string>
     <string name="lockpattern_NeedToConfirm_header">Zum Bestätigen Muster erneut zeichnen</string>
@@ -2597,6 +2599,7 @@ Jeder Nutzer kann Apps für alle anderen Nutzer aktualisieren."</string>
     <string name="screen_locking_sounds_title">Töne für die Displaysperre</string>
     <string name="docking_sounds_title">Docking-Sounds</string>
     <string name="touch_sounds_title">Töne bei Berührung</string>
+    <string name="charging_sounds_title">Ladetöne</string>
     <string name="vibrate_on_touch_title">Bei Berührung vibrieren</string>
     <string name="dock_audio_media_title">Dock-Lautsprecherwiedergabe</string>
     <string name="dock_audio_media_disabled">Alle Audioquellen</string>
@@ -3139,7 +3142,7 @@ Deine gespeicherten Fingerabdrücke werden ebenfalls von diesem Gerät entfernt 
     <string name="account_sync_settings_title">Konto &amp; Synchronisation</string>
     <string name="power_title">Akku</string>
     <string name="applications_management_settings">Anwendungen</string>
-    <string name="tether_settings_title">Eigener HotSpot</string>
+    <string name="tether_settings_title">Tethering &amp; Mobiler HotSpot</string>
     <string name="tether_status_on">An</string>
     <string name="tether_status_off">Aus</string>
     <string name="other_account_name_title">Andere</string>

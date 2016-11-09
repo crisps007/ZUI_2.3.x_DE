@@ -56,6 +56,10 @@
         <item quantity="other">%1$d Apps haben den Speicher in den letzten %2$s verbraucht.</item>
         <item quantity="one">1 App hat den Speicher in den letzten %2$s verbraucht.</item>
     </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d zusätzliche Berechtigungen</item>
+        <item quantity="one">%d zusätzliche Berechtigung</item>
+    </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
         <item quantity="other">%1$d Fingerabdrücke eingerichtet</item>
         <item quantity="one">%1$d Fingerabdrücke eingerichtet</item>

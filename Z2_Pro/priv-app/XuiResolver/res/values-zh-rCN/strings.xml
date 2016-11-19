@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="activity_resolver_use_always">始终</string>
+    <string name="activity_resolver_use_once">仅此一次</string>
+    <string name="noApplications">没有应用可执行此操作。</string>
+</resources>

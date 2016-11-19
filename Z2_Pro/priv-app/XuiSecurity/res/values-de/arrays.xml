@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="perms_category">
-        <item>Telefonieren %amp; Nachrichten</item>
+        <item>Telefonieren &amp; Nachrichten</item>
         <item>Datenschutz</item>
         <item>Multimedia</item>
         <item>Einstellung</item>
@@ -46,7 +46,7 @@
         <item>Zugriff auf SMS</item>
         <item>Zugriff auf SMS</item>
         <item>Systemeinstellung ändern</item>
-        <item>Schwebende Fenster anzeigen</item>
+        <item>Schwebende Fenster zeigen</item>
         <item>Zugriff auf Benachrichtigung</item>
         <item>Zugriff auf Kamera</item>
         <item>Tonaufname einschalten</item>
@@ -75,7 +75,7 @@
         <item>SMS/MMS senden</item>
         <item>Zugriff auf MMS</item>
         <item>Zugriff auf MMS</item>
-        <item>Autostart apps</item>
+        <item>Autostart Apps</item>
         <item>NFC ändern</item>
         <item>Zugriff auf SMS</item>
         <item>Zugriff auf MMS</item>

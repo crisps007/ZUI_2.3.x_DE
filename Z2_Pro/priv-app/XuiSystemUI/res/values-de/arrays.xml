@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="volume_stream_titles">
+        <item>Sprachanrufe</item>
+        <item>System</item>
+        <item>Benachrichtigungen</item>
+        <item>Medien</item>
+        <item>Alarme</item>
+        <item></item>
+        <item>Bluetooth-Anrufe</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

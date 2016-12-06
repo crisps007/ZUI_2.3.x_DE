@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_array">
+        <item>Startseite</item>
+        <item>Telefon</item>
+        <item>Kurznachrichten</item>
+        <item>Browser</item>
+        <item>Kamera</item>
+        <item>Galerie</item>
+        <item>Musik</item>
+        <item>E-Mail</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="sort_menu_items">
+        <item>Name</item>
+        <item>Größe</item>
+        <item>Datum</item>
+    </string-array>
+</resources>

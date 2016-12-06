@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desktop_previewa_menu_list">
+        <item>Hintergrund festlegen</item>
+        <item>Abbrechen</item>
+    </string-array>
+    <string-array name="lockscreen_previewa_menu_list">
+        <item>Hintergrund festlegen</item>
+        <item>Abbrechen</item>
+    </string-array>
+</resources>

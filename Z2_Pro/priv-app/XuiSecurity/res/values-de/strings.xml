@@ -65,7 +65,7 @@
     <string name="hardware_error_prompt">In der Einstellung Fingerabdruck und Passwort können Sie vorübergehend die App-Sperre deaktivieren.</string>
     <string name="applock_spec_pkgname_name">Telefon</string>
     <string name="app_unlock_delay"><Data>“%1$s” wird in &lt;font color=#FF0000>%2$sSekunden&lt;/font> gesperrt. Nach Bestätigung Ihres Fingerabdruckes</Data></string>
-    <string name="applock_gallery_name">Gallerie</string>
+    <string name="applock_gallery_name">Galerie</string>
     <string name="applock_list_null">Keine gesperrten Apps</string>
     <string name="applock_main_title">Gesperrte Apps</string>
     <string name="applock_select_app_title">Zu sperrende Apps hinzufügen</string>
@@ -120,7 +120,7 @@
     <string name="cleanmgr_fm_deepclean_confirm_clean_dialog_title">Ausgewählte Elemente löschen?</string>
     <string name="cleanmgr_fm_ok">OK</string>
     <string name="cleanmgr_fm_cancel">Abbrechen</string>
-    <string name="cleanmgr_fm_deepclean_tab_imagemanage">Gallerie</string>
+    <string name="cleanmgr_fm_deepclean_tab_imagemanage">Galerie</string>
     <string name="cleanmgr_fm_deepclean_title_cleaning">Säubere...</string>
     <string name="cleanmgr_fm_deepclean_tab_cache">Cache</string>
     <string name="cleanmgr_fm_deepclean_tab_remant">Deinstallationsreste</string>
@@ -170,7 +170,7 @@
     <string name="cleanmgr_fm_dialog_deepclean_tempfile_item2label">Größe:</string>
     <string name="cleanmgr_fm_image">Foto(s)</string>
     <string name="cleanmgr_fm_this_image">Dieses Foto</string>
-    <string name="cleanmgr_fm_gallery_title">Gallerie</string>
+    <string name="cleanmgr_fm_gallery_title">Galerie</string>
     <string name="cleanmgr_fm_gallery_select_all">Alle Auswählen</string>
     <string name="cleanmgr_fm_gallery_un_select_all">Alle Abwählen</string>
     <string name="cleanmgr_fm_select_image">Reinigung</string>

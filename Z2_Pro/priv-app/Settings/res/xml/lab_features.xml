@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/advanced_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/position_travel" android:key="position_travel" android:widgetLayout="@layout/preference_widget_forward" />
+    <Preference android:title="@string/wechat_cutover_title" android:key="lab_features" android:widgetLayout="@layout/preference_widget_forward">
+        <intent android:targetPackage="com.zui.homesettings" android:action="android.intent.action.MAIN" android:targetClass="com.zui.homesettings.controlcenter.MMChatMultiTaskActivity" />
+    </Preference>
+</PreferenceScreen>

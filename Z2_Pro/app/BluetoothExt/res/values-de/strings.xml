@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bluetooth_remember_choice">Nicht mehr nachfragen</string>
+    <string name="dun_notif_ticker">Bluetooth DUN Verbindungsanfrage</string>
+    <string name="dun_notif_title">Sitzungsschlüssel-Anfrage für DUN</string>
+    <string name="dun_notif_message">Berühren, um eine Verbindung zu \"%1$s\" herzustellen.</string>
+    <string name="dun_acceptance_timeout_message">Das Zeitlimit für die Annahme der Verbindung mit %1$s wurde überschritten.</string>
+    <string name="bluetooth_dun_request">Anfrage für Internet-Einwahlverbindung</string>
+    <string name="bluetooth_dun_acceptance_dialog_text">%1$s möchte eine Internet-Einwahlverbindung aufbauen. Zugriff auf %2$s erlauben?</string>
+    <string name="ftp_acceptance_dialog_title">%1$s möchte auf Ihre Ordner im Telefon zugreifen. Zugriff auf %2$s erlauben?</string>
+    <string name="ftp_acceptance_dialog_header">Telefon Ordner Zugriff</string>
+    <string name="ftp_session_key_dialog_title">Sitzungsschlüssel für %1$s eingeben</string>
+    <string name="ftp_session_key_dialog_header">Bluetooth-Sitzungsschlüssel erforderlich</string>
+    <string name="ftp_acceptance_timeout_message">Das Zeitlimit für die Annahme der Verbindung mit %1$s wurde überschritten.</string>
+    <string name="ftp_authentication_timeout_message">Das Zeitlimit für die Authentifizierung mit %1$s wurde überschritten.</string>
+    <string name="ftp_notif_ticker">Bluetooth Verbindungsanfrage</string>
+    <string name="ftp_notif_title">Sitzungsschlüssel-Anfrage für FTP</string>
+    <string name="ftp_notif_message">Berühren, um eine Verbindung zu \"%1$s\" herzustellen.</string>
+    <string name="bluetooth_ftp_request">Ftp Anfrage</string>
+    <string name="bluetooth_ftp_acceptance_dialog_text">%1$s möchte auf Ihre Ordner und Dateien zugreifen. Zugriff auf %2$s erlauben?</string>
+    <string name="map_acceptance_dialog_title">%1$s möchte auf Ihre Ordner im Telefon zugreifen. Zugriff auf %2$s erlauben?</string>
+    <string name="map_acceptance_dialog_header">Telefon Ordner Zugriff</string>
+    <string name="map_session_key_dialog_title">Sitzungsschlüssel für %1$s</string>
+    <string name="map_session_key_dialog_header">Bluetooth Sitzungsschlüssel benötigt</string>
+    <string name="map_acceptance_timeout_message">Das Zeitlimit für die Annahme der Verbindung mit %1$s wurde überschritten.</string>
+    <string name="map_authentication_timeout_message">Das Zeitlimit für die Authentifizierung mit %1$s wurde überschritten.</string>
+    <string name="map_notif_ticker">Bluetooth Verbindungsanfrage</string>
+    <string name="map_notif_title">Sitzungschlüssel-Anfrage für MAP</string>
+    <string name="map_notif_message">Berühren, um eine Verbindung zu \"%1$s\" herzustellen.</string>
+    <string name="map_alert_conn_failed_message">Bluetooth MAP Verbindung fehlgeschlagen.</string>
+    <string name="bluetooth_mas_request">Anfrage für Nachrichtenzugriff</string>
+    <string name="bluetooth_mas_acceptance_dialog_text">%1$s möchte auf Ihre Nachrichten zugreifen. Zugriff auf %2$s erlauben?</string>
+    <string name="sap_notif_ticker">Bluetooth SIM Zugriffsanfrage</string>
+    <string name="sap_notif_title">Session Key Request for SAP</string>
+    <string name="sap_notif_message">Berühren, um eine Verbindung zu \"%1$s\" herzustellen.</string>
+    <string name="sap_acceptance_timeout_message">Das Zeitlimit für die Annahme der Verbindung mit %1$s wurde überschritten.</string>
+    <string name="bluetooth_sap_request">Anfrage für SIM-Karten-Zugriff</string>
+    <string name="bluetooth_sap_acceptance_dialog_text">%1$s möchte auf Ihre SIM-Karte zugreifen. Zugriff auf %2$s erlauben?</string>
+</resources>

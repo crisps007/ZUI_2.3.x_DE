@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="menu_end_session">Sitzung beenden</string>
+    <string name="help">Hilfe</string>
+    <string name="menu_back">Zurück</string>
+    <string name="service_name">Service Name</string>
+    <string name="stk_no_service">Kein Service verfügbar</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nö</string>
+    <string name="alphabet">Buchstaben</string>
+    <string name="digits">Zahlen (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">Anrufen…</string>
+    <string name="default_setup_call_msg">Rufaufbau</string>
+    <string name="stk_app_state">Anwendungsstatus</string>
+    <string name="enable_app">Aktiviert</string>
+    <string name="disable_app">Deaktiviert</string>
+    <string name="stk_dialog_title">SIM ToolKit</string>
+    <string name="default_tone_dialog_msg">Ton abspielen</string>
+    <string name="default_open_channel_msg">Kanal öffnen?</string>
+    <string name="default_send_data_msg">Sende Daten</string>
+    <string name="default_receive_data_msg">Empfange Daten</string>
+    <string name="default_close_channel_msg">Kanal geschlossen</string>
+    <string name="stk_dialog_accept">JA</string>
+    <string name="stk_dialog_reject">Nein</string>
+    <string name="no_sim_card_inserted">Bitte SIM-Karte einstecken um SIM Toolkit zu aktivieren.</string>
+    <string name="sim1_name">SIM Karte 1 Apps</string>
+    <string name="sim2_name">SIM Karte 2 Apps</string>
+    <string name="sim_no_app">Keine App für diese Karte</string>
+    <string name="stk_intent_permission">SIM Toolkit Intents erlauben</string>
+</resources>

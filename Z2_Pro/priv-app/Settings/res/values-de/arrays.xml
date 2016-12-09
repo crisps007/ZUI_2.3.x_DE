@@ -123,7 +123,7 @@
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
         <item>Immer</item>
-        <item>Nur wenn angeschlossen</item>
+        <item>Ladegerät</item>
         <item>Nie</item>
     </string-array>
     <string-array name="wifi_wapi_key_type">
@@ -132,7 +132,7 @@
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
         <item>Immer</item>
-        <item>Nur wenn angeschlossen</item>
+        <item>Ladegerät</item>
         <item>Nie</item>
     </string-array>
     <string-array name="data_usage_data_range">

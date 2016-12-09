@@ -14,7 +14,7 @@
         <item>Notiz</item>
     </string-array>
     <string-array name="sound_effect_list">
-        <item>Vorgabe</item>
+        <item>Standard</item>
         <item>Piano</item>
     </string-array>
     <string-array name="lunar_month_array">

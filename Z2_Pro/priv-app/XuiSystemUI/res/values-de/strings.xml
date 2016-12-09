@@ -241,9 +241,9 @@ Versuchen Sie es in %d Sekunden erneut."</string>
     <string name="custom_switch_position_description3">Zweiter Bildschirm</string>
     <string name="custom_switch_position_description4">Mehr...</string>
     <string name="control_center_more_settings_tip">Nach unten ziehen zum Öffnen der Einstellungen</string>
-    <string name="control_center_settings_lockscreen_title">Auf Sperrbildschirm anzeigen</string>
-    <string name="control_center_settings_application_title">In Apps anzeigen</string>
-    <string name="control_center_settings_application_summary">Schnelleinstellungsleiste in laufende Apps und im gesperrten Bildschirm aktivieren.</string>
+    <string name="control_center_settings_lockscreen_title">Im Sperrbildschirm aktivieren</string>
+    <string name="control_center_settings_application_title">In Apps aktivieren</string>
+    <string name="control_center_settings_application_summary">Ermöglicht das öffnen der Schnelleinstellungsleiste in Apps und im Sperrbildschirm.</string>
     <string name="control_center_settings_guideline">Wischen Sie von der Unterseite des Bildschirms nach oben, um die Schnelleinstellungsleiste zu öffnen</string>
     <string name="controlcenter_mmchat_switcher_text">Aritcle:  </string>
     <string name="controlcenter_mmchat_switcher_dialog_title">Close Wechat article shortcut</string>

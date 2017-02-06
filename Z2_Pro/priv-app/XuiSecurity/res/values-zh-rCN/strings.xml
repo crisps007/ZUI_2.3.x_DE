@@ -480,6 +480,7 @@
 处理"</string>
     <string name="manui_emergency_has_virus_new_title">手机状态很糟糕，发现</string>
     <string name="manui_emergency_has_more_virus_count">%1$d个病毒</string>
+    <string name="applock_weixin_name">weixinqianbao</string>
     <string name="cleanmgr_fm_junk_size">垃圾%1$s</string>
     <string name="cleanmgr_fm_memory_size">内存%1$s</string>
     <string name="cleanmgr_fm_gotodeepclean_text">深度清理至少还可以释放%1$s</string>
@@ -610,5 +611,4 @@
     <string name="cleanmgr_fm_autolaunch_stop_text_allban">查看详情</string>
     <string name="cleanmgr_fm_power_off">操作过程中请勿关机</string>
     <string name="cleanmgr_fm_autolaunch_allban">%1$s个应用已全部禁止自启</string>
-    <string name="applock_weixin_name">weixinqianbao</string>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Network Location</string>
+    <string name="location_warning_title">Standort zustimmen</string>
+    <string name="location_warning_message">"When Autonavi NLP (Network Location Provider) function is opened, you will allow AutoNavi NLP service to collect anonymous location data. Some data may be encrypted and stored on your device. Encryption and collection may occur even when no apps are running. You may be charged for data traffic. The collected anonymous location data will be used for improving the performance and accuracy of the location service. Autonavi promises the collected anonymous location data will not be provided to others or be used for other purposes except to render services. The data to be collected includes the followings:
+- ID, Signal Strength of WLAN AP to be surveyed from the periphery;
+- ID, Signal Strength to be surveyed from the peripheral base station (for GSM);
+- ID, Signal Strength to be surveyed from the peripheral base station (for CDMA)."</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Ablehnen</string>
+    <string name="location_warning_do_not_show_again">Nicht wieder anzeigen</string>
+    <string name="wifi_scan_always">Scannen immer erlauben</string>
+    <string name="wifi_scan_tips">Erlaube Standortdienst und Apps nach WLAN zu scannen, selbst wenn WLAN ausgeschaltet ist.</string>
+    <string name="persmission_notification_title">Netzwerkstandort erfordert Berechtigungen</string>
+    <string name="persmission_notification_text">Zum Erlauben tippen</string>
+    <string name="persmission_message">Für eine ordnungsgemäße Funktion des Dienstes sind zusätzliche Berechtigungen erforderlich.</string>
+    <string name="persmission_message2">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihren Speicher erforderlich.</string>
+    <string name="persmission_message3">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihren Standort erforderlich.</string>
+    <string name="persmission_message4">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihr Telefon erforderlich.</string>
+    <string name="persmission_message5">Für eine ordnungsgemäße Funktion des Dienstes sind zusätzliche Berechtigungen erforderlich. Sie können die Berechtigungen des Netzwerkstandortes in den Einstellungen verwalten.</string>
+    <string name="persmission_message6">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihren Standort erforderlich. Sie können die Berechtigungen des Netzwerkstandortes in den Einstellungen verwalten.</string>
+    <string name="persmission_message7">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihr Telefon erforderlich. Sie können die Berechtigungen des Netzwerkstandortes in den Einstellungen verwalten.</string>
+    <string name="persmission_message8">Für eine ordnungsgemäße Funktion, ist der Zugriff auf Ihren Speicher erforderlich. Sie können die Berechtigungen des Netzwerkstandortes in den Einstellungen verwalten.</string>
+    <string name="persmission_ok">OK</string>
+    <string name="persmission_close">SCHLIESSEN</string>
+    <string name="persmission_settings">EINSTELLUNGEN</string>
+</resources>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_time_labels">
+        <item>Nicht erinnern</item>
+        <item>Bei Fälligkeit</item>
+        <item>5 Minuten vorher</item>
+        <item>15 Minuten vorher</item>
+        <item>30 Minuten vorher</item>
+        <item>1 Stunde vorher</item>
+        <item>1 Tag vorher</item>
+    </string-array>
+    <string-array name="recurrence_freq_lables">
+        <item>einmalig</item>
+        <item>täglich</item>
+        <item>@string/repeat_item_week_workday</item>
+        <item>@string/repeat_item_week</item>
+        <item>@string/repeat_item_day_of_month</item>
+        <item>@string/repeat_item_day_of_year</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>an jedem ersten Sonntag</item>
+        <item>an jedem zweiten Sonntag</item>
+        <item>an jedem dritten Sonntag</item>
+        <item>an jedem vierten Sonntag</item>
+        <item>an jedem letzten Sonntag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>an jedem ersten Montag</item>
+        <item>an jedem zweiten Montag</item>
+        <item>an jedem dritten Montag</item>
+        <item>an jedem vierten Montag</item>
+        <item>an jedem letzten Montag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>an jedem ersten Dienstag</item>
+        <item>an jedem zweiten Dienstag</item>
+        <item>an jedem dritten Dienstag</item>
+        <item>an jedem vierten Dienstag</item>
+        <item>an jedem letzten Dienstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>an jedem ersten Mittwoch</item>
+        <item>an jedem zweiten Mittwoch</item>
+        <item>an jedem dritten Mittwoch</item>
+        <item>an jedem vierten Mittwoch</item>
+        <item>an jedem letzten Mittwoch</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>an jedem ersten Donnerstag</item>
+        <item>an jedem zweiten Donnerstag</item>
+        <item>an jedem dritten Donnerstag</item>
+        <item>an jedem vierten Donnerstag</item>
+        <item>an jedem letzten Donnerstag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>an jedem ersten Freitag</item>
+        <item>an jedem zweiten Freitag</item>
+        <item>an jedem dritten Freitag</item>
+        <item>an jedem vierten Freitag</item>
+        <item>an jedem letzten Freitag</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>an jedem ersten Samstag</item>
+        <item>an jedem zweiten Samstag</item>
+        <item>an jedem dritten Samstag</item>
+        <item>an jedem vierten Samstag</item>
+        <item>an jedem letzten Samstag</item>
+    </string-array>
+    <string-array name="state_lables">
+        <item>Beschäftigt</item>
+        <item>Verfügbar</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Komme ein paar Minuten später.</item>
+        <item>Ich brauche noch 10 Minuten.</item>
+        <item>Fangt ohne mich an.</item>
+        <item>Ich schaffe es nicht mehr. Vielleicht beim nächsten Mal.</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallinseln</item>
+        <item>Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time Zone</item>
+        <item>Amerika</item>
+        <item>Central Time</item>
+        <item>Mexiko</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>EST</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>Manaus</item>
+        <item>San Diego</item>
+        <item>Neufundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic Region</item>
+        <item>Azoren</item>
+        <item>Kapverden</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Brüssel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Westafrika Zeit</item>
+        <item>Amman, Jordanien</item>
+        <item>Athen, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskau</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Uralsk</item>
+        <item>Ekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Magnitogorsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Wladiwostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidschi</item>
+        <item>Tonga</item>
+        <item>Jakarta</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pazifik/Majuro</item>
+        <item>Pazifik/Midway</item>
+        <item>Pazifik/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Halifax</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantik/South_Georgia</item>
+        <item>Atlantik/Azores</item>
+        <item>Atlantik/Cape_Verde</item>
+        <item>Afrika/Casablanca</item>
+        <item>Europa/London</item>
+        <item>Europa/Amsterdam</item>
+        <item>Europa/Belgrade</item>
+        <item>Europa/Brüssel</item>
+        <item>Europa/Sarajevo</item>
+        <item>Afrika/Windhoek</item>
+        <item>Afrika/Brazzaville</item>
+        <item>Asien/Amman</item>
+        <item>Europa/Athens</item>
+        <item>Asien/Beirut</item>
+        <item>Afrika/Cairo</item>
+        <item>Europa/Helsinki</item>
+        <item>Asien/Jerusalem</item>
+        <item>Europa/Minsk</item>
+        <item>Afrika/Harare</item>
+        <item>Asien/Baghdad</item>
+        <item>Europa/Moscow</item>
+        <item>Asien/Kuwait</item>
+        <item>Afrika/Nairobi</item>
+        <item>Asien/Tehran</item>
+        <item>Asien/Baku</item>
+        <item>Asien/Tbilisi</item>
+        <item>Asien/Yerevan</item>
+        <item>Asien/Dubai</item>
+        <item>Asien/Kabul</item>
+        <item>Asien/Karachi</item>
+        <item>Asien/Oral</item>
+        <item>Asien/Yekaterinburg</item>
+        <item>Asien/Calcutta</item>
+        <item>Asien/Colombo</item>
+        <item>Asien/Katmandu</item>
+        <item>Asien/Almaty</item>
+        <item>Asien/Rangoon</item>
+        <item>Asien/Krasnoyarsk</item>
+        <item>Asien/Bangkok</item>
+        <item>Asien/Shanghai</item>
+        <item>Asien/Hong_Kong</item>
+        <item>Asien/Irkutsk</item>
+        <item>Asien/Kuala_Lumpur</item>
+        <item>Australien/Perth</item>
+        <item>Asien/Taipei</item>
+        <item>Asien/Seoul</item>
+        <item>Asien/Tokyo</item>
+        <item>Asien/Yakutsk</item>
+        <item>Australien/Adelaide</item>
+        <item>Australien/Darwin</item>
+        <item>Australien/Brisbane</item>
+        <item>Australien/Hobart</item>
+        <item>Australien/Sydney</item>
+        <item>Asien/Vladivostok</item>
+        <item>Pazifik/Guam</item>
+        <item>Asien/Magadan</item>
+        <item>Pazifik/Auckland</item>
+        <item>Pazifik/Fiji</item>
+        <item>Pazifik/Tongatapu</item>
+        <item>Asien/Jakarta</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Nur dieses Ereignis löschen</item>
+        <item>Dieses und zukünftige Ereignisse löschen</item>
+        <item>Alle Ereignisse löschen</item>
+    </string-array>
+    <string-array name="popup_more_items">
+        <item>Übersicht</item>
+        <item>Jahresansicht</item>
+        <item>Einstellungen</item>
+    </string-array>
+    <string-array name="new_agenda_icon_descriptions">
+        <item>Reise</item>
+        <item>Rückzahlung</item>
+        <item>Termin</item>
+        <item>Konferenz</item>
+        <item>Jubiläum</item>
+        <item>Flug</item>
+        <item>Geburtstag</item>
+    </string-array>
+    <string-array name="agenda_descriptions">
+        <item>[Reise]</item>
+        <item>[Rückzahlung]</item>
+        <item>[Termin]</item>
+        <item>[Konferenz]</item>
+        <item>[Jubiläum]</item>
+        <item>[Flug]</item>
+        <item>[Geburtstag]</item>
+    </string-array>
+    <string-array name="week_day">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+    <string-array name="all_day_reminder_values">
+        <item>nicht erinnern</item>
+        <item>bei Fälligkeit</item>
+        <item>1 Tag vorher</item>
+        <item>2 Tage vorher</item>
+        <item>Eine Woche vorher</item>
+    </string-array>
+    <string-array name="edit_repeating_labels">
+        <item>Nur dieses Ereignis ändern</item>
+        <item>Dieses und zukünftige Ereignisse ändern</item>
+        <item>Alle Ereignisse ändern</item>
+    </string-array>
+    <string-array name="shengxiao_text">
+        <item>Maus</item>
+        <item>Kuh</item>
+        <item>Tiger</item>
+        <item>Hase</item>
+        <item>Drache</item>
+        <item>Schlange</item>
+        <item>Pferd</item>
+        <item>Schaf</item>
+        <item>Affe</item>
+        <item>Huhn</item>
+        <item>Hund</item>
+        <item>Schwein</item>
+    </string-array>
+    <string-array name="tiangan_text">
+        <item>Holz/Yang</item>
+        <item>Holz/Yin</item>
+        <item>Feuer/Yang</item>
+        <item>Feuer/Yin</item>
+        <item>Erde/Yang</item>
+        <item>Erde/Yin</item>
+        <item>Metall/Yang</item>
+        <item>Metall/Yin</item>
+        <item>Wasser/Yang</item>
+        <item>Wasser/Yin</item>
+    </string-array>
+    <string-array name="dizhi_text">
+        <item>Maus</item>
+        <item>Kuh</item>
+        <item>Tiger</item>
+        <item>Hase</item>
+        <item>Drache</item>
+        <item>Schlange</item>
+        <item>Pferd</item>
+        <item>Schaf</item>
+        <item>Affe</item>
+        <item>Huhn</item>
+        <item>Hund</item>
+        <item>Schwein</item>
+    </string-array>
+    <string-array name="lunar_month_num">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="solar_term_array">
+        <item>Frühlingstagundnachtgleiche</item>
+        <item>Sommeranfang</item>
+        <item>Herbsttagundnachtgleiche</item>
+        <item>Winteranfang</item>
+    </string-array>
+    <string-array name="lunar_daynum_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="month_number_array">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="tens_prefix_array">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="month_name_array">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

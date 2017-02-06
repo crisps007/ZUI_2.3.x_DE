@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="endByCount">
+        <item quantity="other">；Insgesamt %d mal wiederholt</item>
+        <item quantity="one">；1 mal wiederholt</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">täglich</item>
+        <item quantity="one">täglich</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">%2$s-wöchentlich</item>
+        <item quantity="one">%2$s-wöchentlich</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d Aktivitäten</item>
+        <item quantity="one">1 Aktivität</item>
+    </plurals>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+ %d andere Aktivitäten</item>
+        <item quantity="one">1 Aktivität</item>
+    </plurals>
+</resources>

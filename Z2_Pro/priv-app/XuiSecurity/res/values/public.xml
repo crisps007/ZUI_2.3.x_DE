@@ -2016,7 +2016,7 @@
     <public type="string" name="manui_two_row_deal_ing" id="0x7f0a02b2" />
     <public type="string" name="manui_emergency_has_virus_new_title" id="0x7f0a02b3" />
     <public type="string" name="manui_emergency_has_more_virus_count" id="0x7f0a02b4" />
-    <public type="string" name="unlock_try" id="0x7f0a02b5" />
+    <public type="string" name="applock_weixin_name" id="0x7f0a0045" />
     <public type="string" name="cleanmgr_fm_junk_size" id="0x7f0a00c3" />
     <public type="string" name="cleanmgr_fm_memory_size" id="0x7f0a00c4" />
     <public type="string" name="cleanmgr_fm_gotodeepclean_text" id="0x7f0a00c5" />
@@ -2147,7 +2147,7 @@
     <public type="string" name="cleanmgr_fm_autolaunch_stop_text_allban" id="0x7f0a0142" />
     <public type="string" name="cleanmgr_fm_power_off" id="0x7f0a0143" />
     <public type="string" name="cleanmgr_fm_autolaunch_allban" id="0x7f0a0144" />
-    <public type="string" name="applock_weixin_name" id="0x7f0a0045" />
+    <public type="string" name="unlock_try" id="0x7f0a02b5" />
     <public type="string" name="fm_clean_clean_button_still_text" id="0x7f0a02b6" />
     <public type="style" name="AppBaseTheme" id="0x7f0b0000" />
     <public type="style" name="AppTheme" id="0x7f0b0001" />

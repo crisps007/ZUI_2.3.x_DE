@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_allow_edit_carrier_enabled">false</bool>
+    <bool name="cdma_prefe_ntwork_mode_optimize">true</bool>
+    <bool name="cu_slave_card_support">false</bool>
+    <bool name="cm_network_type_support">true</bool>
+    <bool name="is_cta_test">false</bool>
+</resources>

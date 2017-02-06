@@ -6,7 +6,7 @@
     <string name="action_settings">Einstellungen</string>
     <string name="sort_text">Sortieren</string>
     <string name="running">läuft</string>
-    <string name="disabled_app">Deaktiviert</string>
+    <string name="disabled_app">Deaktivierte Apps</string>
     <string name="other_apps">Andere</string>
     <string name="default_apps">Bevorzugte Apps</string>
     <string name="sort_order_alpha">Nach Namen sortieren</string>
@@ -16,8 +16,8 @@
     <string name="app_version">Version</string>
     <string name="force_stop">Beenden</string>
     <string name="uninstall">Deinstallieren</string>
-    <string name="disable">Aus</string>
-    <string name="enable">Einschalten</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="enable">Aktivieren</string>
     <string name="storage_label">Speicher</string>
     <string name="restore_default_preferrerd">Zurücksetzen</string>
     <string name="restore_apps_preferred_setting">Bevorzugte Apps zurücksetzen</string>
@@ -37,7 +37,7 @@
     <string name="move_to_sdcard">Auf SD-Karte verschieben</string>
     <string name="move_to_internal">Auf internen Speicher verschieben</string>
     <string name="cache">Cache</string>
-	<string name="clear_cache">Cache löschen</string>
+    <string name="clear_cache">Cache löschen</string>
     <string name="default_startup">Standardmäßig starten</string>
     <string name="no_default">Keine Vorgaben</string>
     <string name="permission">Erlauben</string>
@@ -57,7 +57,7 @@
     <string name="running_process_title">Laufende Apps</string>
     <string name="running_service_title">Laufende Services</string>
     <string name="reset_apps_preferred">Bevorzugte Apps zurücksetzen</string>
-    <string name="system_default">Systemvorgabe</string>
+    <string name="system_default">System Standard</string>
     <string name="cached">Hintergrundprozess im Cache</string>
     <string name="service_process_name">%1$s</string>
     <string name="service_client_name">%1$s</string>

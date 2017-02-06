@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="push_app_name">Gerätedienst</string>
+    <string name="download_falied">Download fehlgeschlagen, klicken Sie auf Wiederholen.</string>
+    <string name="warring_network_mobile">Keine WLAN, möchten Sie mobile Daten verwenden?</string>
+    <string name="warring_no_network">Netzwerk nicht verfügbar, bitte erneut versuchen</string>
+    <string name="text_start_task">Start</string>
+    <string name="text_set_wifi">WLAN einstellen</string>
+    <string name="text_set_later">Später fragen</string>
+    <string name="dialog_button_download">Herunterladen</string>
+    <string name="dialog_button_cancel">Abbrechen</string>
+    <string name="install_success">Installiert</string>
+    <string name="install_success_start">Installieren</string>
+    <string name="download_in_queue">Download-Aufgabe hinzugefügt</string>
+    <string name="download_in_queue_zero">Download startet ohne Mobile-Daten zu verbrauchen</string>
+    <string name="download_in_wifi_only">Nur über WLAN herunterladen</string>
+    <string name="download_in_wifi_mobile">Herunterladen</string>
+    <string name="progress_wait_retry">Warte auf Neustart</string>
+    <string name="progress_wait_network">Warte auf Netzwerk</string>
+    <string name="progress_downloading">Runterladen…</string>
+    <string name="progress_downloaded">Heruntergeladen</string>
+    <string name="progress_task_not_exist">Aufgabe existiert nicht</string>
+    <string name="ad_skip">Überspringen</string>
+</resources>

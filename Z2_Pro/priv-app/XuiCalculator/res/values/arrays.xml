@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="errors_array">
+        <item>@string/error_nan</item>
+        <item>@string/error_syntax</item>
+        <item>@string/error_formula_too_long</item>
+        <item>Infinity</item>
+    </string-array>
+</resources>

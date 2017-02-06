@@ -464,7 +464,7 @@ Aktivitäten auf und erhalten Verbesserungsvorschläge."</string>
     <string name="select_the_user">Benutzer auswählen</string>
     <string name="setp_target_explain">Erzielen Sie genug Schritte, um gesund zu bleiben.</string>
     <string name="share">Teilen</string>
-    <string name="share_more">Mehr</string>
+    <string name="share_failed">Teilen Fehlgeschlagen</string>
     <string name="share_map_loading">Karte wird geladen, bitte warten</string>
     <string name="share_more">Mehr</string>
     <string name="share_save_failed">Speichern fehlgeschlagen</string>

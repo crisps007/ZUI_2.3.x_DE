@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apn_auth_entries">
+        <item>Keine</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP oder CHAP</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Keine Angabe</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Keine</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="apn_carrier_enabled_entries">
+        <item>APN deaktiviert</item>
+        <item>APN aktiviert</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>4G/3G/2G(4G bevorzugt)</item>
+        <item>3G/2G</item>
+    </string-array>
+    <string-array name="entries_show_type_array">
+        <item>Ersten 4 Ziffern</item>
+        <item>Letzten 4 Ziffern</item>
+        <item>Nicht anzeigen</item>
+    </string-array>
+    <string-array name="show_roaming_tips_entries">
+        <item>Einmalig</item>
+        <item>Immmer</item>
+        <item>Nie</item>
+    </string-array>
+</resources>

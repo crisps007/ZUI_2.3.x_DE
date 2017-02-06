@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="skin_dark_delay_time">20000</integer>
+    <integer name="skin_pink_delay_time">5000</integer>
+    <integer name="skin_blue_delay_time">5000</integer>
+    <integer name="skin_default_delay_time">5000</integer>
+    <integer name="waiting_dialog_showing_timeout">5100</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+</resources>
